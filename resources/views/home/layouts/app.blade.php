@@ -117,13 +117,10 @@
                                     <a href="/@lang('about-us')" class="navigation__link" data-@src="/images/home/menu-about.png">@lang('About Us')</a>
                                 </li>
                                 <li class="navigation__item">
-                                    <a href="/@lang('website-design')" class="navigation__link" data-@src="/images/home/menu-website.png">@lang('Website Design')</a>
+                                    <a href="/@lang('chanels')" class="navigation__link" data-@src="/images/home/menu-website.png">@lang('Chanels')</a>
                                 </li>
                                 <li class="navigation__item">
-                                    <a href="/@lang('branding-design-posm')" class="navigation__link" data-@src="/images/home/menu-brand.png">@lang('Branding Design & POSM')</a>
-                                </li>
-                                <li class="navigation__item">
-                                    <a href="/@lang('digital-marketing')" class="navigation__link" data-@src="/images/home/menu-marketing.png">@lang('Digital Marketing')</a>
+                                    <a href="/@lang('buy-chanels')" class="navigation__link" data-@src="/images/home/menu-brand.png">@lang('Buy-Chanels')</a>
                                 </li>
                                 <li class="navigation__item">
                                     <a href="/@lang('news')" class="navigation__link" data-@src="/images/home/menu-news.png">@lang('News')</a>
@@ -144,7 +141,7 @@
                             <div class="navigation__info">
                                 <ul class="navigation-list">
                                     <li><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:{{$config->phone}}" title="Số điện thoại" data-cms="{{app()->getLocale()}}-layouts-app-70">{{$config->phone}}</a></li>
-                                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <span data-cms="{{app()->getLocale()}}-layouts-app-73">Email:</span> <a href="mailto:sales@miraitech.vn" title="Email" data-cms="{{app()->getLocale()}}-layouts-app-74">sales@miraitech.vn</a></li>
+                                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <span data-cms="{{app()->getLocale()}}-layouts-app-73">Email:</span> <a href="mailto:lnguyen24794@gmail.com" title="Email" data-cms="{{app()->getLocale()}}-layouts-app-74">lnguyen24794@gmail.com</a></li>
                                     <li><i class="fa fa-map-marker" aria-hidden="true"></i> <span data-cms="{{app()->getLocale()}}-layouts-app-77">2530 10th Ct SE Olympia WA 98501</span></li>
                                 </ul>
                             </div>
@@ -187,7 +184,7 @@
                         <ul class="footer-list">
                             <li><i class="fa fa-map-marker" aria-hidden="true"></i> <span data-cms="{{app()->getLocale()}}-layouts-app-100">2530 10th Ct SE Olympia WA 98501</span></li>
                             <li><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:{{$config->phone}}" title="Số điện thoại" data-cms="{{app()->getLocale()}}-layouts-app-103">{{$config->phone}}</a></li>
-                            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <span data-cms="{{app()->getLocale()}}-layouts-app-106">Email:</span> <a href="mailto:sales@miraitech.vn" title="Email" data-cms="{{app()->getLocale()}}-layouts-app-107">sales@miraitech.vn</a></li>
+                            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <span data-cms="{{app()->getLocale()}}-layouts-app-106">Email:</span> <a href="mailto:lnguyen24794@gmail.com" title="Email" data-cms="{{app()->getLocale()}}-layouts-app-107">lnguyen24794@gmail.com</a></li>
                         </ul>
                     </div>
                 </div>
@@ -204,9 +201,8 @@
                     <div class="footer-content">
                         <h3 class="title">@lang('Services')</h3>
                         <ul class="footer-list">
-                            <li><a href="/@lang('website-design')" title="@lang('Website Design')">@lang('Website Design')</a></li>
-                            <li><a href="/@lang('branding-design-posm')" title="@lang('Branding Design & POSM')">@lang('Branding Design & POSM')</a></li>
-                            <li><a href="/@lang('digital-marketing')" title="@lang('Digital Marketing')">@lang('Digital Marketing')</a></li>
+                            <li><a href="/@lang('chanels')" title="@lang('Chanels')">@lang('Chanels')</a></li>
+                            <li><a href="/@lang('buy-chanels')" title="@lang('Buy-Chanels')">@lang('Buy-Chanels')</a></li>
                         </ul>
                     </div>
                 </div>
@@ -271,7 +267,7 @@
         </div>
     </div>
     <div class="copyright">
-        <p>@lang('Design by') Miraitech</p>
+        <p>@lang('Design by') YoutubeStore</p>
     </div>
 </footer>
 <a id="scrolltop" class="scroll-top" onclick="document.documentElement.scrollIntoView({ behavior: 'smooth' });">
@@ -286,7 +282,7 @@
         <div class="grid-head">
             <h3 class="title" data-cms="{{app()->getLocale()}}-layouts-app-171">NEED CONSULTANCY?</h3>
             <div class="sapo">
-                <p data-cms="{{app()->getLocale()}}-layouts-app-173">Stop hesitating and increase your sales with MIRAITECH!</p>
+                <p data-cms="{{app()->getLocale()}}-layouts-app-173">Stop hesitating and increase your sales with YOUTUBESTORE!</p>
                 <p data-cms="{{app()->getLocale()}}-layouts-app-174">Fill out our form below or send us an email.</p>
             </div>
         </div>

@@ -178,6 +178,7 @@ return [
         App\Providers\RouteServiceProvider::class,
         App\Providers\RepositoryServiceProvider::class,
 
+        Jenssegers\Agent\AgentServiceProvider::class
     ],
 
     /*
@@ -232,6 +233,8 @@ return [
 
         'Image' => Intervention\Image\Facades\Image::class,
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
+
+        'Agent' => Jenssegers\Agent\Facades\Agent::class
     ],
 
 ];
