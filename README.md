@@ -10,7 +10,7 @@
 ## Information
 - Home Template: [here]()
 - Admin Template: [here](https://github.com/duongvalo/admin-template.git)
-- Domain: [miraitech.vn](https://miraitech.vn)
+- Domain: [youtubestore.vn](https://youtubestore.vn)
 - Hosting: `158.247.210.4`
 - Database: `miraitech`
 - Rate: `0`
