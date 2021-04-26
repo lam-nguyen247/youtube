@@ -91,7 +91,7 @@
     <div class="grid-about-me">
         <div class="container">
             <div class="grid-head">
-                <h2 class="title" data-cms="{{app()->getLocale()}}-about-index-52">We are Miraitech</h2>
+                <h2 class="title" data-cms="{{app()->getLocale()}}-about-index-52">We are YoutubeStore</h2>
             </div>
             <div class="grid-content">
                 <div class="row">
@@ -175,7 +175,7 @@
                         <span data-cms="{{app()->getLocale()}}-about-index-102">BUSINESS</span>
                         <span data-cms="{{app()->getLocale()}}-about-index-103">SUPPORTING</span>
                         <span data-cms="{{app()->getLocale()}}-about-index-104">SERVICE FROM</span>
-                        <span data-cms="{{app()->getLocale()}}-about-index-105">MIRAITECH</span>
+                        <span data-cms="{{app()->getLocale()}}-about-index-105">YoutubeStore</span>
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-lg-8 col-lx-8">
@@ -219,7 +219,7 @@
                 <div class="col-12 col-md-12 col-lg-6 col-lx-6 d-flex align-items-end">
                     <div class="grid-reason__title">
                         <span class="hero"><span class="hero-text" data-cms="{{app()->getLocale()}}-about-index-139">6</span></span>
-                        <span class="text" data-cms="{{app()->getLocale()}}-about-index-140">REASONS TO <br> CHOOSE MIRAITECH</span>
+                        <span class="text" data-cms="{{app()->getLocale()}}-about-index-140">REASONS TO <br> CHOOSE YoutubeStore</span>
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-lg-6 col-lx-6">

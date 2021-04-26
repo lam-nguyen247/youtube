@@ -14,7 +14,7 @@
                         <div class="grid-hero__wrapp">
                             <div class="grid-hero__content">
                                 <div class="box-hero">
-                                    <h4 class="sub" data-cms="{{app()->getLocale()}}-website-index-14">WE ARE MIRAITECH</h4>
+                                    <h4 class="sub" data-cms="{{app()->getLocale()}}-website-index-14">WE ARE YoutubeStore</h4>
                                     <h2 class="title"><span data-cms="{{app()->getLocale()}}-website-index-16">A digital agency focused on</span> <span id="typing" class="hero typed" data-cms="{{app()->getLocale()}}-website-index-17">Website</span></h2>
                                     <div class="sapo" data-cms="{{app()->getLocale()}}-website-index-18">We are a creative team of designers, developers, and strategists, building elevated websites in the heart of Vietnam</div>
                                     <div class="btn-normal">
@@ -53,7 +53,7 @@
                 <div class="col-12 col-lg-8">
                     <div class="grid-solution__content">
                         <div class="grid-solution--title" data-cms="{{app()->getLocale()}}-website-index-39">
-                            WE HAVE SOLUTIONS TO ALL OF YOUR PROBLEMS AT MIRAITECH - CUSTOM WEBSITE DESIGN AT YOUR FINGERTIP.
+                            WE HAVE SOLUTIONS TO ALL OF YOUR PROBLEMS AT YoutubeStore - CUSTOM WEBSITE DESIGN AT YOUR FINGERTIP.
                         </div>
                     </div>
                 </div>
@@ -91,8 +91,8 @@
                             <div class="grid-why__content">
                                 <h3 data-cms="{{app()->getLocale()}}-website-index-59">THE TRUTH ABOUT SUCCESSFUL STARTUPS IN VIETNAM</h3>
                                 <p data-cms="{{app()->getLocale()}}-website-index-60">According to Thanh Niên, There are over 1000 start up companies in Vietnam in 2019, but only 600 among them still running. The reason is that they know the first step to be sucessful is to choose the right place to build their e-commerce website.</p>
-                                <h3 data-cms="{{app()->getLocale()}}-website-index-61">If you want to run a highly profitable business, then choose MIRAITECH</h3>
-                                <p data-cms="{{app()->getLocale()}}-website-index-62">MIRAITECH not only able to build well design ecommerce website, but also include impactful features. It is beautiful, user-friendly, and easy to maintain</p>
+                                <h3 data-cms="{{app()->getLocale()}}-website-index-61">If you want to run a highly profitable business, then choose YoutubeStore</h3>
+                                <p data-cms="{{app()->getLocale()}}-website-index-62">YoutubeStore not only able to build well design ecommerce website, but also include impactful features. It is beautiful, user-friendly, and easy to maintain</p>
                             </div>
                         </div>
                     </div>
@@ -102,7 +102,7 @@
                         <div class="col-12 col-md-2"></div>
                         <div class="col-12 col-md-4">
                             <div class="grid-why__support-title">
-                                <span data-cms="{{app()->getLocale()}}-website-index-68">MIRAITECH</span>
+                                <span data-cms="{{app()->getLocale()}}-website-index-68">YoutubeStore</span>
                                 <span data-cms="{{app()->getLocale()}}-website-index-69">GUARANTEE TO</span>
                             </div>
                         </div>
@@ -152,7 +152,7 @@
                 <h2 class="title"><span style="font-size: 120%;" data-cms="{{app()->getLocale()}}-website-index-131">SERVICE PACKAGES</span> <br> <span data-cms="{{app()->getLocale()}}-website-index-132">THAT SUITS EVERY NEEDS</span></h2>
                 <div class="sapo">
                     <p data-cms="{{app()->getLocale()}}-website-index-134">Many business owners are struggling because of having an INEFFICIENT website and HIGH COST ADVERTISMENT but DOES NOT YIELD sastified result.</p>
-                    <p data-cms="{{app()->getLocale()}}-website-index-135">As a business owner, you need to know where to get AFFORTABLE, REPUTATIONAL, &amp; WELL DESIGN website. Therefore, MIRAITECH offers different packages that you can easily choose from to suit your business' needs</p>
+                    <p data-cms="{{app()->getLocale()}}-website-index-135">As a business owner, you need to know where to get AFFORTABLE, REPUTATIONAL, &amp; WELL DESIGN website. Therefore, YoutubeStore offers different packages that you can easily choose from to suit your business' needs</p>
                 </div>
             </div>
             <div class="grid-content">
@@ -234,8 +234,8 @@
     <div class="grid-field">
         <div class="container">
             <div class="grid-head">
-                <h2 class="title" data-cms="{{app()->getLocale()}}-website-index-193">MIRAITECH DESIGNS WEBSITE FOR MANY DIFFERENT FIELDS</h2>
-                <div class="sapo" data-cms="{{app()->getLocale()}}-website-index-194">Online business is becoming the norm nowaday. Become a pioneer and a leader in your given field by taking advandage of technology. MIRAITECH will support your every needs</div>
+                <h2 class="title" data-cms="{{app()->getLocale()}}-website-index-193">YoutubeStore DESIGNS WEBSITE FOR MANY DIFFERENT FIELDS</h2>
+                <div class="sapo" data-cms="{{app()->getLocale()}}-website-index-194">Online business is becoming the norm nowaday. Become a pioneer and a leader in your given field by taking advandage of technology. YoutubeStore will support your every needs</div>
             </div>
 
             <div class="grid-content">
@@ -309,14 +309,14 @@
                             <div class="col-12 col-md-4">
                                 <div class="box-question">
                                     <h3 class="box-question__title" data-cms="{{app()->getLocale()}}-website-index-240">How long does it take to design a website ?</h3>
-                                    <div class="box-question__sapo" data-cms="{{app()->getLocale()}}-website-index-241">The website that build by MIRAITECH will have quality contents, well design and highly SEO optimized so that it is will be easily found on Google. In addition, It is lightweight, so you can expect a short load time</div>
+                                    <div class="box-question__sapo" data-cms="{{app()->getLocale()}}-website-index-241">The website that build by YoutubeStore will have quality contents, well design and highly SEO optimized so that it is will be easily found on Google. In addition, It is lightweight, so you can expect a short load time</div>
                                 </div>
                             </div>
                             <div class="col-12 col-md-4">
                                 <div class="box-question">
                                     <h3 class="box-question__title" data-cms="{{app()->getLocale()}}-website-index-244">How long does it take to design a website ?</h3>
                                     <div class="box-question__sapo">
-                                        <p data-cms="{{app()->getLocale()}}-website-index-246">MIRAITECH had built their headquaters in major city like Ho Chi Minh City or Da Nang. This will make it easier for you to reach and work with us</p>
+                                        <p data-cms="{{app()->getLocale()}}-website-index-246">YoutubeStore had built their headquaters in major city like Ho Chi Minh City or Da Nang. This will make it easier for you to reach and work with us</p>
                                         <p data-cms="{{app()->getLocale()}}-website-index-247">However, if you do not live close by, you can reach us via phone, email, Skype, Zalo, Viper. We will give consultancy, sign contract, and support your business wherever you are.</p>
                                     </div>
                                 </div>
@@ -333,7 +333,7 @@
         <div class="container">
             <div class="grid-head">
                 <h2 class="title" data-cms="{{app()->getLocale()}}-website-index-251">HOW IT WORKS?</h2>
-                <h3 class="subtitle" data-cms="{{app()->getLocale()}}-website-index-252">MIRATECH PROFESSIONAL WEBSITE DESIGN</h3>
+                <h3 class="subtitle" data-cms="{{app()->getLocale()}}-website-index-252">YoutubeStore PROFESSIONAL WEBSITE DESIGN</h3>
             </div>
             <div class="grid-content">
                 <div class="row">
@@ -344,7 +344,7 @@
                                 <span data-cms="{{app()->getLocale()}}-website-index-259">/5</span>
                             </div>
                             <h3 class="box-work__title" data-cms="{{app()->getLocale()}}-website-index-260">INFORMATION</h3>
-                            <div class="box-work__sapo" data-cms="{{app()->getLocale()}}-website-index-261">To get thing started, MIRAITECH will need your basic business information such as vision, mission, core value, etc. The more information and the more detail that you give us, the more complete your custom website will be come</div>
+                            <div class="box-work__sapo" data-cms="{{app()->getLocale()}}-website-index-261">To get thing started, YoutubeStore will need your basic business information such as vision, mission, core value, etc. The more information and the more detail that you give us, the more complete your custom website will be come</div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-2">

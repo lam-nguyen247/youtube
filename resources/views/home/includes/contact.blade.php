@@ -6,7 +6,7 @@
                     <div class="grid-head">
                         <h2 class="title" data-cms="{{app()->getLocale()}}-includes-contact-195">NEED CONSULTANCY?</h2>
                         <div class="sapo">
-                            <p data-cms="{{app()->getLocale()}}-includes-contact-197">Stop hesitating and increase your sales with MIRAITECH!</p>
+                            <p data-cms="{{app()->getLocale()}}-includes-contact-197">Stop hesitating and increase your sales with YoutubeStore!</p>
                             <p><span data-cms="{{app()->getLocale()}}-includes-contact-199">Fill out our form below or</span> <a href="mailto:lnguyen24794@gmail.com" target="_blank" data-cms="{{app()->getLocale()}}-includes-contact-200">send us an email</a><span data-cms="{{app()->getLocale()}}-includes-contact-201">.</span></p>
                         </div>
                     </div>

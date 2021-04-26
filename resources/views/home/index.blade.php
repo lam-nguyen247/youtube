@@ -20,7 +20,7 @@
             <div class="box-call">
                 <h3 class="title" data-cms="{{app()->getLocale()}}-index-24">Over 10 Years Of Working Experience</h3>
                 <div class="sapo" style="max-width:740px">
-                    <p style="text-align: left" data-cms="{{app()->getLocale()}}-index-26">MIRAITECH has been developed by a team of young, enthusiastic, and professional that help many businesses succeed in different fields.</p>
+                    <p style="text-align: left" data-cms="{{app()->getLocale()}}-index-26">YoutubeStore has been developed by a team of young, enthusiastic, and professional that help many businesses succeed in different fields.</p>
                     {{-- <p data-cms="{{app()->getLocale()}}-index-27">The number 1 solution for enterprises and company who is looking for a web solution for their business. We value our clients and commited to provide the best services and products</p> --}}
                 </div>
                 <div class="btn-normal">

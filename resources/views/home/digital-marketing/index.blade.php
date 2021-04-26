@@ -30,7 +30,7 @@
         <div class="container">
             <div class="box-call">
                 <div class="sapo">
-                    <p data-cms="{{app()->getLocale()}}-digital-index-15">Digital Marketing is the perfect solution to promote your brand, products và and services to the potential customers. In this digital age, marketing has became easier, but the effect that it brought is undeniable. Miraitech's digital marketing solution is a smart choice that will make your business breakthrough.</p>
+                    <p data-cms="{{app()->getLocale()}}-digital-index-15">Digital Marketing is the perfect solution to promote your brand, products và and services to the potential customers. In this digital age, marketing has became easier, but the effect that it brought is undeniable. YoutubeStore's digital marketing solution is a smart choice that will make your business breakthrough.</p>
                 </div>
                 <div class="btn-normal">
                     <a class="btn-modal" href="javascript:void(0)" title="Register now">
@@ -65,7 +65,7 @@
                         <div class="col-12 col-md-12 col-lg-6 offset-lg-1">
                             <div class="box-marketing__content">
                                 <h3 class="box-marketing__title"><span data-cms="{{app()->getLocale()}}-digital-index-37">Google ads</span></h3>
-                                <div class="box-marketing__sapo" data-cms="{{app()->getLocale()}}-digital-index-38">Google Ads is a potential solution for many businesses. Miratech is highly specialized of ultilizing Google Ads to bring the best result.</div>
+                                <div class="box-marketing__sapo" data-cms="{{app()->getLocale()}}-digital-index-38">Google Ads is a potential solution for many businesses. YoutubeStore is highly specialized of ultilizing Google Ads to bring the best result.</div>
                                 <ul class="support-list">
                                     <li>
                                         <svg class="icon"><use xlink:href="#icon-plus"></use></svg>
@@ -106,7 +106,7 @@
                         <div class="col-12 col-md-12 col-lg-6 offset-lg-1">
                             <div class="box-marketing__content">
                                 <h3 class="box-marketing__title"><span data-cms="{{app()->getLocale()}}-digital-index-69">FACEBOOK ADS</span></h3>
-                                <div class="box-marketing__sapo" data-cms="{{app()->getLocale()}}-digital-index-70">Google Ads is a potential solution for many businesses. Miratech is highly specialized of ultilizing Google Ads to bring the best result.</div>
+                                <div class="box-marketing__sapo" data-cms="{{app()->getLocale()}}-digital-index-70">Google Ads is a potential solution for many businesses. YoutubeStore is highly specialized of ultilizing Google Ads to bring the best result.</div>
                                 <ul class="support-list">
                                     <li>
                                         <svg class="icon"><use xlink:href="#icon-plus"></use></svg>
@@ -147,7 +147,7 @@
                         <div class="col-12 col-md-12 col-lg-6 offset-lg-1">
                             <div class="box-marketing__content">
                                 <h3 class="box-marketing__title"><span data-cms="{{app()->getLocale()}}-digital-index-101">SEO SERIVES</span></h3>
-                                <div class="box-marketing__sapo" data-cms="{{app()->getLocale()}}-digital-index-102">Google Ads is a potential solution for many businesses. Miratech is highly specialized of ultilizing Google Ads to bring the best result.</div>
+                                <div class="box-marketing__sapo" data-cms="{{app()->getLocale()}}-digital-index-102">Google Ads is a potential solution for many businesses. YoutubeStore is highly specialized of ultilizing Google Ads to bring the best result.</div>
                                 <ul class="support-list">
                                     <li>
                                         <svg class="icon"><use xlink:href="#icon-plus"></use></svg>
@@ -188,7 +188,7 @@
                         <div class="col-12 col-md-12 col-lg-6 offset-lg-1">
                             <div class="box-marketing__content">
                                 <h3 class="box-marketing__title"><span data-cms="{{app()->getLocale()}}-digital-index-133">CONTENT WRITING SERVICE</span></h3>
-                                <div class="box-marketing__sapo" data-cms="{{app()->getLocale()}}-digital-index-134">Google Ads is a potential solution for many businesses. Miratech is highly specialized of ultilizing Google Ads to bring the best result.</div>
+                                <div class="box-marketing__sapo" data-cms="{{app()->getLocale()}}-digital-index-134">Google Ads is a potential solution for many businesses. YoutubeStore is highly specialized of ultilizing Google Ads to bring the best result.</div>
                                 <ul class="support-list">
                                     <li>
                                         <svg class="icon"><use xlink:href="#icon-plus"></use></svg>
@@ -229,7 +229,7 @@
                         <div class="col-12 col-md-12 col-lg-6 offset-lg-1">
                             <div class="box-marketing__content">
                                 <h3 class="box-marketing__title"><span data-cms="{{app()->getLocale()}}-digital-index-165">WEBSITE, FANPAGE MAINTAINANCE</span></h3>
-                                <div class="box-marketing__sapo" data-cms="{{app()->getLocale()}}-digital-index-166">Google Ads is a potential solution for many businesses. Miratech is highly specialized of ultilizing Google Ads to bring the best result.</div>
+                                <div class="box-marketing__sapo" data-cms="{{app()->getLocale()}}-digital-index-166">Google Ads is a potential solution for many businesses. YoutubeStore is highly specialized of ultilizing Google Ads to bring the best result.</div>
                                 <ul class="support-list">
                                     <li>
                                         <svg class="icon"><use xlink:href="#icon-plus"></use></svg>
