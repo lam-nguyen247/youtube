@@ -3,6 +3,7 @@
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Home\AboutController;
 use App\Http\Controllers\Home\BrandController;
+use App\Http\Controllers\Home\ChanelController;
 use App\Http\Controllers\Home\CmsController;
 use App\Http\Controllers\Home\ContactController;
 use App\Http\Controllers\Home\CustomerController;
@@ -33,6 +34,7 @@ Route::get('{digitalMarketing}', [DigitalController::class, 'index'])->where('di
 Route::get('{contact}', [ContactController::class, 'index'])->where('contact', 'contact|lien-he');
 Route::get('{news}', [PostController::class, 'index'])->where('news', 'news|tin-tuc');
 Route::get('{news}/{post:slug}', [PostController::class, 'detail'])->where('news', 'news|tin-tuc');
+Route::get('{chanel}', [ChanelController::class, 'index'])->where('chanel', 'chanel|danh-sach-kenh');
 Route::post('customer', [CustomerController::class, 'store']);
 Route::post('cms', [CmsController::class, 'index']);
 

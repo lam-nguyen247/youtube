@@ -4299,3 +4299,28 @@ footer {
         height: 15px;
     }
 }
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  #customers td, #customers th {
+    border: 1px solid $color-text;
+    padding: 8px;
+  }
+
+  #customers tr{background-color: $bg-white;}
+
+  #customers tr:hover {background-color: $bg-primary;}
+
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: $bg-primary;
+    color: white;
+  }
+
+

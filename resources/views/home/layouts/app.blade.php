@@ -19,6 +19,7 @@
     <link rel="canonical" href="{{request()->url()}}">
     <!-- Custom CSS -->
     <link href="/css/home/app.min.css" rel="stylesheet">
+    @yield('css')
 </head>
 <body id="body-site">
 <svg aria-hidden="true" class="common-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -318,6 +319,11 @@
         </div>
     </div>
 </div>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
 <script type="text/javascript" src="/js/home/app.min.js"></script>
+@yield('js')
 </body>
 </html>

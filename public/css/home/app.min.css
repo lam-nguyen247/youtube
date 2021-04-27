@@ -5380,3 +5380,31 @@ footer .footer-content .footer-list.footer-list--social li a:hover {
   }
 }
 
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td,
+#customers th {
+  border: 1px solid #000;
+  padding: 8px;
+}
+
+#customers tr {
+  background-color: #fff;
+}
+
+#customers tr:hover {
+  background-color: #cf4042;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #cf4042;
+  color: white;
+}
+
