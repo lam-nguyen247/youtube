@@ -31,7 +31,7 @@ class ChanelController extends Controller
     public function getGoogleClient()
     {
         $client = new Google_Client();
-        $client->setRedirectUri('http://localhost:8001/tin-tuc');
+        $client->setRedirectUri(env('APP_URL').'/key');
         $client->setApplicationName('Google Sheets API PHP Quickstart');
         $client->setScopes(Google_Service_Sheets::SPREADSHEETS_READONLY);
         $client->setAuthConfig(config_path('credentials.json'));
@@ -69,5 +69,9 @@ class ChanelController extends Controller
         }
 
         return $client;
+   }
+
+   public function getKey(Request $request){
+       dd($request->all());
    }
 }

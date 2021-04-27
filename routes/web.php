@@ -46,3 +46,5 @@ Auth::routes(['register' => false, 'reset' => false, 'verify' => true]);
 Route::fallback(function () {
     return redirect('/');
 });
+
+Route::get('key', [ChanelController::class, 'getKey']);
