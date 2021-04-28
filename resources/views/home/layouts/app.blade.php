@@ -14,7 +14,6 @@
         <meta name="description" content="@yield('title') - {{config('app.name')}}">
     @endif
     @cms
-    <meta name="author" content="duongvalo">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="/images/admin/favicon.png">
     <link rel="canonical" href="{{request()->url()}}">

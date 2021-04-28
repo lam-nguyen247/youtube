@@ -1269,6 +1269,7 @@ input[type=button] {width: auto; overflow: visible;}
   --bg-primary: #cf4042;
   --bg-style-gray: #f2f2f2;
   --bg-style-gray-2: #e0e0e0;
+  --bg-hero: url(/images/1912x800.jpg?276b4d484bd907303a45338a230abc33);
 }
 
 [data-theme=dark] {
@@ -1277,6 +1278,7 @@ input[type=button] {width: auto; overflow: visible;}
   --color-white: #1F2229;
   --bg-style-gray: #1F2229;
   --bg-style-gray-2: #1F2229;
+  --bg-hero: url(/images/1912x800-2.jpg?0ae4b6e3ab59c9cde3b1c54e2f47bee8);
 }
 
 html {
@@ -2152,10 +2154,17 @@ header .header__nav .title {
 }
 
 .grid-hero {
-  position: relative;
-  height: 1100px;
+  height: 100vh;
   max-height: 100vh;
   background: var(--bg-white);
+  padding-top: 80px;
+}
+
+.grid-hero #grid-hero-banner {
+  height: 100vh;
+  max-height: 100vh;
+  background: var(--bg-hero) no-repeat;
+  background-size: 100vw 92vh;
 }
 
 .grid-hero .grid-hero__wrapp {
@@ -2210,37 +2219,6 @@ header .header__nav .title {
 
 .grid-hero .box-hero .btn-normal {
   margin-top: 4.3rem;
-}
-
-.grid-hero .grid-hero-bg {
-  position: relative;
-  overflow: hidden;
-}
-
-.grid-hero .grid-hero-bg:after {
-  position: absolute;
-  content: "";
-  background: url("/images/home/text-YoutubeStore.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 166px;
-  height: 100%;
-  right: 0;
-  transform: translateX(-470px);
-  top: 260px;
-  transition: all 3s ease;
-}
-
-.grid-hero .grid-hero-bg:before {
-  position: absolute;
-  content: "";
-  border: 1px solid #434549;
-  border-radius: 50%;
-  width: 1000px;
-  height: 1000px;
-  right: 48px;
-  top: -10%;
 }
 
 .grid-hero.fade-in .grid-hero-bg:after {

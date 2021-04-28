@@ -5,14 +5,7 @@
 @section('content')
     {{-- Block hero --}}
     <div class="grid-hero" id="grid-hero">
-        <div class="container-fluid"  style="padding: 0px; overflow: hidden;">
-            <div class="row">
-                <div class="col-md-12" style="padding-top:{{$agent->isMobile()?'58px':'80px'}}">
-                    <div class="container">
-                        <img style="width:100% !important" src="{{URL::to('/')}}/images/home/{{$agent->isMobile()?'714x500.jpg':'1912x800.jpg'}}">
-                    </div>
-                </div>
-            </div>
+        <div id="grid-hero-banner">
         </div>
     </div>
 
@@ -48,7 +41,7 @@
                                 <div class="box-service-home branding">
                                     <div class="box-content row">
                                         <div class="col-12 col-md-12" style="text-align: center">
-                                            <iframe  class="img-fluid animated my-video grid-service__image-title" src="https://www.youtube.com/embed/oITErRInqZM" alt="websites"> </iframe>
+                                            <iframe width="100%" height="600px" src="https://www.youtube.com/embed/oITErRInqZM?start=60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                         </div>
                                         <div class="col-7"></div>
                                         <div class="col-5 col-md-5">
