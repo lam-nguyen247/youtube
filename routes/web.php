@@ -3,7 +3,7 @@
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Home\AboutController;
 use App\Http\Controllers\Home\BrandController;
-use App\Http\Controllers\Home\ChanelController;
+use App\Http\Controllers\Home\ChannelController;
 use App\Http\Controllers\Home\CmsController;
 use App\Http\Controllers\Home\ContactController;
 use App\Http\Controllers\Home\CustomerController;
