@@ -44,7 +44,7 @@
                                 <div class="box-service-home branding">
                                     <div class="box-content row">
                                         <div class="col-12 col-md-12" style="text-align: center">
-                                            <iframe  class="img-fluid animated my-video grid-service__image-title" src="https://youtu.be/oITErRInqZM" alt="websites"> </iframe>
+                                            <iframe  class="img-fluid animated my-video grid-service__image-title" src="https://www.youtube.com/embed/oITErRInqZM" alt="websites"> </iframe>
                                         </div>
                                         <div class="col-7"></div>
                                         <div class="col-5 col-md-5">
