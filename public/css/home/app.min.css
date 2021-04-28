@@ -2158,12 +2158,13 @@ header .header__nav .title {
   max-height: 100vh;
   background: var(--bg-white);
   padding-top: 80px;
+  padding-bottom: 56%;
 }
 
 .grid-hero #grid-hero-banner {
+  padding-bottom: 56%;
   max-height: 100vh;
   height: auto;
-  padding-bottom: 56%;
   width: 100%;
   background: var(--bg-hero) no-repeat;
   background-size: 100%;
