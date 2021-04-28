@@ -119,10 +119,10 @@
                                     <a href="/@lang('about-us')" class="navigation__link" data-@src="/images/home/menu-about.png">@lang('About Us')</a>
                                 </li>
                                 <li class="navigation__item">
-                                    <a href="/@lang('chanels')" class="navigation__link" data-@src="/images/home/menu-website.png">@lang('Chanels')</a>
+                                    <a href="/mua-kenh-youtube" class="navigation__link" data-@src="/images/home/menu-website.png">@lang('Channels')</a>
                                 </li>
                                 <li class="navigation__item">
-                                    <a href="/@lang('buy-chanels')" class="navigation__link" data-@src="/images/home/menu-brand.png">@lang('Buy-Chanels')</a>
+                                    <a href="/@lang('buy-channels')" class="navigation__link" data-@src="/images/home/menu-brand.png">@lang('Buy-Channels')</a>
                                 </li>
                                 <li class="navigation__item">
                                     <a href="/@lang('news')" class="navigation__link" data-@src="/images/home/menu-news.png">@lang('News')</a>
@@ -203,8 +203,8 @@
                     <div class="footer-content">
                         <h3 class="title">@lang('Services')</h3>
                         <ul class="footer-list">
-                            <li><a href="/@lang('chanels')" title="@lang('Chanels')">@lang('Chanels')</a></li>
-                            <li><a href="/@lang('buy-chanels')" title="@lang('Buy-Chanels')">@lang('Buy-Chanels')</a></li>
+                            <li><a href="/@lang('channels')" title="@lang('Channels')">@lang('Channels')</a></li>
+                            <li><a href="/@lang('buy-channels')" title="@lang('Buy-Channels')">@lang('Buy-Channels')</a></li>
                         </ul>
                     </div>
                 </div>

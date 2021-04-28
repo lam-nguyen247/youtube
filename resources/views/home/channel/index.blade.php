@@ -1,6 +1,6 @@
 @extends('home.layouts.app')
 
-@section('title', __('Chanel'))
+@section('title', __('Channels'))
 @section('css')
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
 <style>
@@ -15,9 +15,9 @@
     <div class="grid-contact" id="grid-hero">
         <div class="container">
             <div class="grid-head">
-                <h2 class="title" data-cms="{{app()->getLocale()}}-chanel-index-4">Danh sách kênh!</h2>
+                <h2 class="title" data-cms="{{app()->getLocale()}}-channel-index-4">Danh sách kênh!</h2>
                 <div class="sapo">
-                    <p data-cms="{{app()->getLocale()}}-chanel-index-6">Vui lòng liên hệ với chúng tôi qua email hoặc hotline.</p>
+                    <p data-cms="{{app()->getLocale()}}-channel-index-6">Vui lòng liên hệ với chúng tôi qua email hoặc hotline.</p>
                 </div>
             </div>
             <div class="row" style="background-color:white; padding: 15px">

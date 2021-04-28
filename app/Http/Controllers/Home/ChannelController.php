@@ -8,7 +8,7 @@ use Google_Client;
 use Google_Service_Sheets;
 use Illuminate\Http\Request;
 
-class ChanelController extends Controller
+class ChannelController extends Controller
 {
     public function index(Request $request)
 
@@ -21,11 +21,7 @@ class ChanelController extends Controller
 		// get values
 		$response = $service->spreadsheets_values->get($spreadsheetId, $range);
 		$values = $response->getValues();
-        $path = 'chanel';
-        if (request()->path() != trans($path)) {
-            return redirect(trans($path));
-        }
-        return view('home.' . $path . '.index', compact("values"));
+        return view('home.channel.index', compact("values"));
     }
 
     public function getGoogleClient()
