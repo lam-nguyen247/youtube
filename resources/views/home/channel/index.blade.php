@@ -39,7 +39,11 @@
                                 @for ($i = 1; $i < count($values); $i++)
                                     <tr>
                                         <td>{{$values[$i][0]}}</td>
-                                        <td><a href="{{$values[$i][1]}}" title="{{$values[$i][1]}}" alt="{{$values[$i][1]}}" target="_blank"> {{$values[$i][1]}} </a></td>
+                                        <td>
+                                            <a href="{{$values[$i][1]}}" title="{{$values[$i][1]}}" alt="{{$values[$i][1]}}" target="_blank"> Xem kênh </a>
+                                            <input type="hidden" id="link_{{$i}}"/>
+                                            <button style="padding-left:10px" onclick="copy('link_{{$i}}')">Copy</button>
+                                        </td>
                                         <td>{{$values[$i][2]}}</td>
                                         <td>{{$values[$i][3]}}</td>
                                         <td style="color: {{$values[$i][4]=='Đã bán'?'red':'black'}}">{{$values[$i][4]}}</td>
@@ -63,6 +67,17 @@
 </div>
 @section("js")
 <script>
+    function copy(id) {
+        /* Get the text field */
+        var copyText = document.getElementById(id);
+
+        /* Select the text field */
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+        /* Copy the text inside the text field */
+        document.execCommand("copy");
+    }
     $(document).ready( function () {
         $('#customers').DataTable({
             'pageLength': 25,
