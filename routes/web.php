@@ -35,7 +35,7 @@ Route::get('{digitalMarketing}', [DigitalController::class, 'index'])->where('di
 Route::get('{contact}', [ContactController::class, 'index'])->where('contact', 'contact|lien-he');
 Route::get('{news}', [PostController::class, 'index'])->where('news', 'news|tin-tuc');
 Route::get('{news}/{post:slug}', [PostController::class, 'detail'])->where('news', 'news|tin-tuc');
-Route::get('{chanel}', [ChanelController::class, 'index'])->where('chanel', 'mua-kenh-youtube');
+Route::get('mua-kenh-youtube', [ChanelController::class, 'index']);
 Route::post('customer', [CustomerController::class, 'store']);
 Route::post('cms', [CmsController::class, 'index']);
 
