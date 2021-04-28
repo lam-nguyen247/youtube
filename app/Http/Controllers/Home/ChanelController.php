@@ -15,7 +15,7 @@ class ChanelController extends Controller
     {
 		$client = $this->getGoogleClient();
 		$service = new Google_Service_Sheets($client);
-		$spreadsheetId = env('GOOGLE_SHEET_ID');
+		$spreadsheetId = '1Ay8gJsf_NtToFEXRxP6JHKwPU4673fgpyvQTn6GpWiI';
 		$range = 'Trang tính1!A1:E';
 
 		// get values
