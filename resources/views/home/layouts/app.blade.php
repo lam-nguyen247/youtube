@@ -175,7 +175,7 @@
     <div class="footer-top">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4 col-lg-3">
+                <div class="col-12 col-md-4 col-lg-2">
                     <div class="grid-head">
                         <h3 class="title" data-cms="{{app()->getLocale()}}-layouts-app-93">HAVE AN <br> IDEAS ?</h3>
                     </div>
@@ -208,7 +208,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-8 col-md-3 col-lg-2">
+                <div class="col-8 col-md-3 col-lg-3">
                     <div class="footer-content">
                         <h3 class="title">@lang('Follow us')</h3>
                         <div class="fb-page" data-href="https://www.facebook.com/Youtubestore.vn" data-tabs="timeline" data-width="" data-height="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Youtubestore.vn" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Youtubestore.vn">Youtubestore.vn</a></blockquote></div>
