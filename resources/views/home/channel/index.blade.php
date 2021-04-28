@@ -41,7 +41,7 @@
                                         <td>{{$values[$i][0]}}</td>
                                         <td>
                                             <a href="{{$values[$i][1]}}" title="{{$values[$i][1]}}" alt="{{$values[$i][1]}}" target="_blank"> Xem kênh </a>
-                                            <input value="{{$values[$i][1]}}" type="hidden" id="link_{{$i}}"/>
+                                            <input value="{{$values[$i][1]}}" type="text" style="display: none;" id="link_{{$i}}"/>
                                             <button style="padding-left:10px" onclick="copy('link_{{$i}}')">Copy</button>
                                         </td>
                                         <td>{{$values[$i][2]}}</td>
