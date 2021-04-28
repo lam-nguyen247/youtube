@@ -8,7 +8,7 @@
         <div class="container-fluid"  style="padding: 0px; overflow: hidden;">
             <div class="row">
                 <div class="col-md-12" style="padding-top:{{$agent->isMobile()?'58px':'80px'}}">
-                    <img src="{{URL::to('/')}}/images/home/{{$agent->isMobile()?'714x500.jpg':'1912x800.jpg'}}">
+                    <img style="width:100% !important" src="{{URL::to('/')}}/images/home/{{$agent->isMobile()?'714x500.jpg':'1912x800.jpg'}}">
                 </div>
             </div>
         </div>
