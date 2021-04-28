@@ -1278,7 +1278,7 @@ input[type=button] {width: auto; overflow: visible;}
   --color-white: #1F2229;
   --bg-style-gray: #1F2229;
   --bg-style-gray-2: #1F2229;
-  --bg-hero: url(/images/1912x800-2.jpg?0ae4b6e3ab59c9cde3b1c54e2f47bee8);
+  --bg-hero: url(/images/1912x800-4.jpg?878d4f4880d134777d9d0ca428d713d3);
 }
 
 html {
@@ -2161,10 +2161,12 @@ header .header__nav .title {
 }
 
 .grid-hero #grid-hero-banner {
-  height: 100vh;
   max-height: 100vh;
+  height: auto;
+  padding-bottom: 56%;
+  width: 100%;
   background: var(--bg-hero) no-repeat;
-  background-size: 100vw 92vh;
+  background-size: 100%;
 }
 
 .grid-hero .grid-hero__wrapp {

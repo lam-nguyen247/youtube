@@ -67,6 +67,7 @@
 </div>
 @section("js")
 <script>
+
     function copy(id) {
         /* Get the text field */
         var copyText = document.getElementById(id);
@@ -78,6 +79,7 @@
         /* Copy the text inside the text field */
         document.execCommand("copy");
     }
+
     $(document).ready( function () {
         $('#customers').DataTable({
             'pageLength': 25,
