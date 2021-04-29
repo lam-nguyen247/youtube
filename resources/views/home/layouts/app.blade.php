@@ -187,7 +187,7 @@
                 </div>
                 <div class="col-12 col-md-5 col-lg-3">
                     <div class="footer-content">
-                        <h3 class="title" data-cms="{{app()->getLocale()}}-layouts-app-96">Contact</h3>
+                        <h3 class="title" >@lang('Contact')</h3>
                         <ul class="footer-list">
                             <li><a href="tel:{{$config->phone}}" title="Số điện thoại">{{$config->phone}}</a></li>
                             <li><span>Email:</span> <a href="mailto:{{$config->email}}" title="Email" >{{$config->email}}</a></li>
