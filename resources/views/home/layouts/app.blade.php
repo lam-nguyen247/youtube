@@ -174,7 +174,7 @@
     <div class="footer-top">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4 col-lg-3">
+                <div class="col-12 col-md-4 col-lg-4">
                     <div class="footer-content">
                         <h1 style="font-size: 2rem" class="title" data-cms="{{app()->getLocale()}}-layouts-app-93">HAVE AN <br> IDEAS ?</h1>
                         <ul class="footer-list">
@@ -185,17 +185,17 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-md-5 col-lg-2">
+                <div class="col-12 col-md-5 col-lg-3">
                     <div class="footer-content">
                         <h3 class="title" data-cms="{{app()->getLocale()}}-layouts-app-96">Contact</h3>
                         <ul class="footer-list">
-                            <li><a href="tel:{{$config->phone}}" title="Số điện thoại" data-cms="{{app()->getLocale()}}-layouts-app-103">{{$config->phone}}</a></li>
-                            <li><span data-cms="{{app()->getLocale()}}-layouts-app-106">Email:</span> <a href="mailto:{{$config->email}}" title="Email" data-cms="{{app()->getLocale()}}-layouts-app-107">{{$config->email}}</a></li>
-                            <li><span data-cms="{{app()->getLocale()}}-layouts-app-106-3">Zalo:</span> <a href="https://zalo.me/{{$config->email}}" title="Zalo" data-cms="{{app()->getLocale()}}-layouts-app-108">{{$config->zalo}}</a></li>
+                            <li><a href="tel:{{$config->phone}}" title="Số điện thoại">{{$config->phone}}</a></li>
+                            <li><span>Email:</span> <a href="mailto:{{$config->email}}" title="Email" >{{$config->email}}</a></li>
+                            <li><span>Zalo:</span> <a href="https://zalo.me/{{$config->email}}" title="Zalo" >{{$config->zalo}}</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 col-lg-2">
+                {{-- <div class="col-12 col-md-3 col-lg-2">
                     <div class="footer-content">
                         <h3 class="title">@lang('About')</h3>
                         <ul class="footer-list">
@@ -203,7 +203,7 @@
                             <li><a href="/@lang('news')" title="@lang('News')">@lang('News')</a></li>
                         </ul>
                     </div>
-                </div>
+                </div> --}}
                 <div class="col-12 col-md-4 col-lg-2">
                     <div class="footer-content">
                         <h3 class="title">@lang('Services')</h3>
