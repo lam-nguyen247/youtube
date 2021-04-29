@@ -47,7 +47,8 @@
             <div class="box-call">
                 <h3 class="title" data-cms="{{app()->getLocale()}}-index-24">Tại sao nên sở hữu một kênh youtube</h3>
                 <div class="sapo" style="max-width:740px">
-                    <p style="text-align: left" data-cms="{{app()->getLocale()}}-index-26">Youtube tạo nên thương hiệu cho Sản Phẩm, Doanh Nghiệm của bạn.
+                    <p style="text-align: left" data-cms="{{app()->getLocale()}}-index-26">
+                        Youtube tạo nên thương hiệu cho Sản Phẩm, Doanh Nghiệm của bạn.
                         Youtube đem lại doanh thu với tính năng kiếm tiền trên Youtube.
                         Đưa Sản Phẩm, Doanh Nghiệp của bạn đến với khách hàng mà không tốn phí.
                         Giúp khách hàng đánh giá, nhìn nhận đúng và rõ hơn về Sản Phẩm, Doanh Nghiệp
