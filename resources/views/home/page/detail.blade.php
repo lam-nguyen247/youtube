@@ -31,7 +31,7 @@
                                 </div>
                             </div>
                         </div> --}}
-                        <img @src="{{$page->image}}" alt="{{$page->name}}" class="tour-image" />
+                  
                         <div class="tour-subtitle-wrapper">
                             {!!$page->content!!}
                             {{-- <h3 id="sub_1">Subtitle 1</h3>
