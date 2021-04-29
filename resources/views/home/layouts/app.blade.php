@@ -174,7 +174,7 @@
     <div class="footer-top">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-12 col-md-4 col-lg-3">
                     <div class="footer-content">
                         <h1 style="font-size: 2rem" class="title" data-cms="{{app()->getLocale()}}-layouts-app-93">HAVE AN <br> IDEAS ?</h1>
                         <ul class="footer-list">
@@ -185,7 +185,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-md-5 col-lg-3">
+                <div class="col-12 col-md-5 col-lg-2">
                     <div class="footer-content">
                         <h3 class="title" data-cms="{{app()->getLocale()}}-layouts-app-96">Contact</h3>
                         <ul class="footer-list">
@@ -195,7 +195,7 @@
                         </ul>
                     </div>
                 </div>
-                {{-- <div class="col-12 col-md-3 col-lg-2">
+                <div class="col-12 col-md-3 col-lg-2">
                     <div class="footer-content">
                         <h3 class="title">@lang('About')</h3>
                         <ul class="footer-list">
@@ -203,7 +203,7 @@
                             <li><a href="/@lang('news')" title="@lang('News')">@lang('News')</a></li>
                         </ul>
                     </div>
-                </div> --}}
+                </div>
                 <div class="col-12 col-md-4 col-lg-2">
                     <div class="footer-content">
                         <h3 class="title">@lang('Services')</h3>
