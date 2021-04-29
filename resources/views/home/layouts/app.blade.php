@@ -100,12 +100,6 @@
         </label>
     </div>
 
-    {{-- logo --}}
-    <div id="navigation__logo" class="navigation__logo">
-        <a href="/" title="logo">
-            <img class="img-fluid" @src="/images/home/logo-black.png" alt="{{config('app.name')}}">
-        </a>
-    </div>
     <nav class="navigation__nav">
         <div class="container">
             <div class="row">
