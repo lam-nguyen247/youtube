@@ -63,14 +63,16 @@
                     <p style="text-align: left" data-cms="{{app()->getLocale()}}-index-26">Youtube tạo nên thương hiệu cho Sản Phẩm, Doanh Nghiệm của bạn.
                         Youtube đem lại doanh thu với tính năng kiếm tiền trên Youtube.
                         Đưa Sản Phẩm, Doanh Nghiệp của bạn đến với khách hàng mà không tốn phí.
-                        Giúp khách hàng đánh giá, nhìn nhận đúng và rõ hơn về Sản Phẩm, Doanh Nghiệp</p>
+                        Giúp khách hàng đánh giá, nhìn nhận đúng và rõ hơn về Sản Phẩm, Doanh Nghiệp
+                    </p>
+                    <div class="btn-normal" style="text-align: right; margin-top: 10px;">
+                        <a href="/@lang('channels')" title="Get to know us">
+                            <span class="btn-normal__title" data-cms="{{app()->getLocale()}}-index-30">Danh Sách Kênh</span>
+                            <svg class="icon"><use xlink:href="#icon-arrow"></use></svg>
+                        </a>
+                    </div>
                 </div>
-                <div class="btn-normal">
-                    <a href="/@lang('channels')" title="Get to know us">
-                        <span class="btn-normal__title" data-cms="{{app()->getLocale()}}-index-30">Danh Sách Kênh</span>
-                        <svg class="icon"><use xlink:href="#icon-arrow"></use></svg>
-                    </a>
-                </div>
+
             </div>
         </div>
     </div>
