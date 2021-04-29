@@ -8,7 +8,7 @@
         margin-bottom: 15px;
     }
     th, td{
-        text-align: center;
+        text-align: center !important;
     }
 </style>
 @endsection
@@ -18,7 +18,7 @@
     <div class="grid-contact" id="grid-hero">
         <div class="container">
             <div class="grid-head" style="text-align: center">
-                <h2 class="title" data-cms="{{app()->getLocale()}}-channel-index-4">Danh sách kênh!</h2>
+                <h2 class="title" style="text-align: center" data-cms="{{app()->getLocale()}}-channel-index-4">Danh sách kênh!</h2>
                 <div class="sapo">
                     <p data-cms="{{app()->getLocale()}}-channel-index-6">Vui lòng liên hệ với chúng tôi qua email hoặc hotline.</p>
                 </div>
