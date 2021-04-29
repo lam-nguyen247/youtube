@@ -179,9 +179,9 @@
                                     <li class="sidebar-item"><a href="{{route('page.index')}}" class="sidebar-link">
                                         <i class="mdi mdi-octagram"></i><span class="hide-menu">@lang('All Pages')</span></a>
                                     </li>
-                                    <li class="sidebar-item"><a href="{{route('page.create')}}" class="sidebar-link">
+                                    {{-- <li class="sidebar-item"><a href="{{route('page.create')}}" class="sidebar-link">
                                         <i class="mdi mdi-octagram"></i><span class="hide-menu">@lang('Add New')</span></a>
-                                    </li>
+                                    </li> --}}
                                 </ul>
                             </li>
                         @endif
