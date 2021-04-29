@@ -10,6 +10,7 @@ use App\Http\Controllers\Home\CustomerController;
 use App\Http\Controllers\Home\DigitalController;
 use App\Http\Controllers\Home\HomeController;
 use App\Http\Controllers\Home\LocalizationController;
+use App\Http\Controllers\Home\PageController;
 use App\Http\Controllers\Home\PostController;
 use App\Http\Controllers\Home\WebsiteController;
 use Illuminate\Support\Facades\Auth;
