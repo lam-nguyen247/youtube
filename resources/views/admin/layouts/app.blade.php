@@ -170,7 +170,7 @@
                                 </ul>
                             </li>
                         @endif
-                        {{-- @if(Route::has('page.index'))
+                        @if(Route::has('page.index'))
                             <li class="sidebar-item">
                                 <a class="sidebar-link waves-effect waves-dark has-arrow" href="javascript:void(0)" aria-expanded="false">
                                     <i class="ti-layout-cta-left"></i><span class="hide-menu">@lang('Pages')</span>
@@ -184,7 +184,7 @@
                                     </li>
                                 </ul>
                             </li>
-                        @endif --}}
+                        @endif
                         <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark" href="{{route('cms.index')}}" aria-expanded="false">
                                 <i class="ti-write"></i><span class="hide-menu">@lang('CMS')</span>
