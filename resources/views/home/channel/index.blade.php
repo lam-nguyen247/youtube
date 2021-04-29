@@ -43,9 +43,11 @@
                                     <tr>
                                         <td>{{$values[$i][0]}}</td>
                                         <td>
-                                            <a href="{{$values[$i][1]}}" title="{{$values[$i][1]}}" alt="{{$values[$i][1]}}" target="_blank"> Xem kênh </a>
                                             <input value="{{$values[$i][1]}}" type="text" style="display: none;" id="link_{{$i}}"/>
-                                            <button style="padding-left:10px" onclick="copy('link_{{$i}}')">Copy</button>
+                                            <button onclick="xemKenh('{{$values[$i][1]}}')" title="{{$values[$i][1]}}" alt="{{$values[$i][1]}}" target="_blank" style="background-color: #CF4042; border: 1px solid #CF4042;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
+                                            0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px; margin-right: 10px" onclick="copy('link_{{$i}}')">Xem kênh</button>
+                                            <button style="background-color: #8CE78C; border: 1px solid #8CE78C;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
+                                            0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px;" onclick="copy('link_{{$i}}')">Sao chép</button>
                                         </td>
                                         <td>{{$values[$i][2]}}</td>
                                         <td>{{$values[$i][3]}}</td>
@@ -70,7 +72,9 @@
 </div>
 @section("js")
 <script>
-
+    function xemKenh(url){
+        window.open(url,'_blank');
+    }
     function copy(id) {
         /* Get the text field */
         var copyText = document.getElementById(id);
