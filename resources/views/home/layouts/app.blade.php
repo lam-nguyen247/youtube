@@ -177,19 +177,22 @@
                 <div class="col-12 col-md-4 col-lg-4">
                     <div class="grid-head">
                         <h4 class="title" data-cms="{{app()->getLocale()}}-layouts-app-93">HAVE AN <br> IDEAS ?</h4>
+                        <ul class="footer-list">
+                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> <span data-cms="{{app()->getLocale()}}-layouts-app-100">2530 10th Ct SE Olympia WA 98501</span></li>
+                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> <span data-cms="{{app()->getLocale()}}-layouts-app-100-2">2530 10th Ct SE Olympia WA 98501</span></li>
+                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> <span data-cms="{{app()->getLocale()}}-layouts-app-100-3">2530 10th Ct SE Olympia WA 98501</span></li>
+                            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <span data-cms="{{app()->getLocale()}}-layouts-app-106">Mã số thuế:</span> <a  title="Mã số thuế" data-cms="{{app()->getLocale()}}-layouts-app-108">12345678</a></li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-12 col-md-5 col-lg-3">
                     <div class="footer-content">
                         <h3 class="title" data-cms="{{app()->getLocale()}}-layouts-app-96">Contact</h3>
                         <ul class="footer-list">
-                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> <span data-cms="{{app()->getLocale()}}-layouts-app-100">2530 10th Ct SE Olympia WA 98501</span></li>
-                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> <span data-cms="{{app()->getLocale()}}-layouts-app-100-2">2530 10th Ct SE Olympia WA 98501</span></li>
-                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> <span data-cms="{{app()->getLocale()}}-layouts-app-100-3">2530 10th Ct SE Olympia WA 98501</span></li>
                             <li><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:{{$config->phone}}" title="Số điện thoại" data-cms="{{app()->getLocale()}}-layouts-app-103">{{$config->phone}}</a></li>
                             <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <span data-cms="{{app()->getLocale()}}-layouts-app-106">Email:</span> <a href="mailto:{{$config->email}}" title="Email" data-cms="{{app()->getLocale()}}-layouts-app-107">{{$config->email}}</a></li>
                             <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <span data-cms="{{app()->getLocale()}}-layouts-app-106">Zalo:</span> <a href="https://zalo.me/{{$config->email}}" title="Zalo" data-cms="{{app()->getLocale()}}-layouts-app-108">{{$config->zalo}}</a></li>
-                            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <span data-cms="{{app()->getLocale()}}-layouts-app-106">Mã số thuế:</span> <a  title="Mã số thuế" data-cms="{{app()->getLocale()}}-layouts-app-108">12345678</a></li>
+
                         </ul>
                     </div>
                 </div>
