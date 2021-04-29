@@ -10,6 +10,9 @@
     th, td{
         text-align: center !important;
     }
+    table, td, th {
+    border: 1px solid #DEDEDE !important;
+    }
 </style>
 @endsection
 @section('content')
@@ -54,7 +57,7 @@
                                         <td style="color: {{$values[$i][4]=='Đã bán'?'red':'black'}}">{{$values[$i][4]}}</td>
                                         <td>
                                             @if ($values[$i][4]!='Đã bán')
-                                            <button style="background-color: #8CE78C; border: 1px solid #8CE78C;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
+                                            <button style="background-color: #E1CE69; border: 1px solid #E1CE69;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
                                             0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px;">Đặt mua</button>
                                             @endif
                                             </td>
