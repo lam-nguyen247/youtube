@@ -181,7 +181,7 @@
                             <li><span data-cms="{{app()->getLocale()}}-layouts-app-100">2530 10th Ct SE Olympia WA 98501</span></li>
                             <li><span data-cms="{{app()->getLocale()}}-layouts-app-100-2">2530 10th Ct SE Olympia WA 98501</span></li>
                             <li><span data-cms="{{app()->getLocale()}}-layouts-app-100-3">2530 10th Ct SE Olympia WA 98501</span></li>
-                            <li><span data-cms="{{app()->getLocale()}}-layouts-app-106-2">Mã số thuế:</span> <a  title="Mã số thuế" data-cms="{{app()->getLocale()}}-layouts-app-106-2">12345678</a></li>
+                            <li><span>Mã số thuế:</span> <a  title="Mã số thuế" data-cms="{{app()->getLocale()}}-layouts-app-106-2">12345678</a></li>
                         </ul>
                     </div>
                 </div>
