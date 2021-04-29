@@ -6,6 +6,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Services\ImageService;
 use App\Services\PostService;
+use App\Models\Post;
+use App\Models\Page;
 
 class PageController extends Controller
 {
