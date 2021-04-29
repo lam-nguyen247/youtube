@@ -35,23 +35,10 @@
                         allowfullscreen allow='autoplay'></iframe>
                         </div>
                     </div>
-                    <div class="col-7"></div>
-                    <div class="col-5 col-md-5">
-                        <div class="text">
-                            <div class="animated">
-                                <p data-cms="{{app()->getLocale()}}-index-51"></p>
-                            </div>
-                            <div class="btn-normal">
-                                <a href="/@lang('channels')" title="Danh Sách Kênh">
-                                    <span class="btn-normal__title" data-cms="{{app()->getLocale()}}-index-54">Danh Sách Kênh</span>
-                                    <svg class="icon"><use xlink:href="#icon-arrow"></use></svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
+
     </div>
 
     {{-- Block service --}}
@@ -65,7 +52,7 @@
                         Đưa Sản Phẩm, Doanh Nghiệp của bạn đến với khách hàng mà không tốn phí.
                         Giúp khách hàng đánh giá, nhìn nhận đúng và rõ hơn về Sản Phẩm, Doanh Nghiệp
                     </p>
-                    <div class="btn-normal" style="text-align: right; margin-top: 10px;">
+                    <div class="btn-normal">
                         <a href="/@lang('channels')" title="Get to know us">
                             <span class="btn-normal__title" data-cms="{{app()->getLocale()}}-index-30">Danh Sách Kênh</span>
                             <svg class="icon"><use xlink:href="#icon-arrow"></use></svg>
