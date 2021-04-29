@@ -83,56 +83,22 @@
                         </div>
                     </div>
                     <div class="col-md-4 tour-list-item">
-                        <h4>BREADCRUM/ BREADCRUM</h4>
+                        <h4>@lang('News')</h4>
                         <div class="tour-search-wrapper">
                             <img @src="/images/home/icon-search.png" alt="icon-search" class="tour-search-icon" />
                             <input type="text" name="search" id="search" placeholder="Search now" class="tour-search" />
                         </div>
                         <div class="tour-suggest-wrapper">
                             <h4>Gợi ý cho bạn</h4>
-                            <div class="tour-suggest-item">
-                                <img @src="/images/home/item1.png" alt="historical experience" class="tour-image-item" />
-                                <div>
-                                    <h6 class="tour-suggest-title">Title</h6>
-                                    <p class="tour-suggest-description">Historical experience</p>
-                                </div>
-                            </div>
-                            <div class="tour-suggest-item">
-                                <img @src="/images/home/item2.png" alt="historical experience" class="tour-image-item" />
-                                <div>
-                                    <h6 class="tour-suggest-title">Title</h6>
-                                    <p class="tour-suggest-description">
-                                        A glimpse into local handicraft
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="tour-suggest-item">
-                                <img @src="/images/home/item3.png" alt="historical experience" class="tour-image-item" />
-                                <div>
-                                    <h6 class="tour-suggest-title">Title</h6>
-                                    <p class="tour-suggest-description">
-                                        Immerse yourself in nature
-                                    </p>
-                                  </div>
-                            </div>
-                            <div class="tour-suggest-item">
-                                <img @src="/images/home/item4.png" alt="historical experience" class="tour-image-item" />
-                                <div>
-                                    <h6 class="tour-suggest-title">Title</h6>
-                                    <p class="tour-suggest-description">
-                                        HDiscover the local culture
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="tour-suggest-item tour-suggest-bottom">
-                                <img @src="/images/home/item5.png" alt="historical experience" class="tour-image-item" />
-                                <div>
-                                    <h6 class="tour-suggest-title">Title</h6>
-                                    <p class="tour-suggest-description">
-                                        Take a voyage through taste & smell
-                                    </p>
-                                </div>
-                            </div>
+                            @foreach ($postList as $item)
+                                <a href="{{$item->href}}" class="tour-suggest-item">
+                                    <img @src="{{$item->image}}" alt="{{$item->name}}" class="tour-image-item" />
+                                    <div>
+                                        <h6 class="tour-suggest-title">{{$item->name}}</h6>
+                                        <p class="tour-suggest-description">{{$item->excerpt}}</p>
+                                    </div>
+                                </a>
+                            @endforeach
                         </div>
                     </div>
                 </div>

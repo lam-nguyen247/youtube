@@ -121,7 +121,7 @@
                                     <a href="/mua-kenh-youtube" class="navigation__link" >@lang('Channels')</a>
                                 </li>
                                 <li class="navigation__item">
-                                    <a href="/@lang('buy-channels')" class="navigation__link" >@lang('Buy-Channels')</a>
+                                    <a href="/chuyen-nhuong-lai-kenh-youtube" class="navigation__link" >@lang('Buy-Channels')</a>
                                 </li>
                                 <li class="navigation__item">
                                     <a href="/@lang('news')" class="navigation__link" >@lang('News')</a>
