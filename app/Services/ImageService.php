@@ -35,13 +35,11 @@ class ImageService
      */
     public function transformAll($content, string $path, $width = 1024)
     {
-        dd($content);
         $domDocument = new DOMDocument();
         @$domDocument->loadHTML(mb_convert_encoding($content, 'HTML-ENTITIES', 'UTF-8'), 8192 | 4);
 
         $h3TagList = $domDocument->getElementsByTagName('h3');
         foreach ($h3TagList as $h3Tag) {
-            dd($h3Tag->textContent);
             $h3Tag->setAttribute('id', Str::slug($h3Tag->textContent));
         }
 
