@@ -115,19 +115,19 @@
                             <h4 class="navigation__lable" data-cms="{{app()->getLocale()}}-layouts-app-47">Menu</h4>
                             <ul class="navigation__list" id="navi-menu">
                                 <li class="navigation__item active">
-                                    <a href="/@lang('about-us')" class="navigation__link" data-@src="/images/home/menu-about.png">@lang('About Us')</a>
+                                    <a href="/@lang('about-us')" class="navigation__link">@lang('About Us')</a>
                                 </li>
                                 <li class="navigation__item">
-                                    <a href="/mua-kenh-youtube" class="navigation__link" data-@src="/images/home/menu-website.png">@lang('Channels')</a>
+                                    <a href="/mua-kenh-youtube" class="navigation__link" >@lang('Channels')</a>
                                 </li>
                                 <li class="navigation__item">
-                                    <a href="/@lang('buy-channels')" class="navigation__link" data-@src="/images/home/menu-brand.png">@lang('Buy-Channels')</a>
+                                    <a href="/@lang('buy-channels')" class="navigation__link" >@lang('Buy-Channels')</a>
                                 </li>
                                 <li class="navigation__item">
-                                    <a href="/@lang('news')" class="navigation__link" data-@src="/images/home/menu-news.png">@lang('News')</a>
+                                    <a href="/@lang('news')" class="navigation__link" >@lang('News')</a>
                                 </li>
                                 <li class="navigation__item">
-                                    <a href="/@lang('contact')" class="navigation__link" data-@src="/images/home/menu-contact.png">@lang('Contact')</a>
+                                    <a href="/@lang('contact')" class="navigation__link">@lang('Contact')</a>
                                 </li>
                             </ul>
                         </div>
