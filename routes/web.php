@@ -38,6 +38,9 @@ Route::get('{news}/{post:slug}', [PostController::class, 'detail'])->where('news
 Route::get('mua-kenh-youtube', [ChannelController::class, 'index']);
 Route::post('customer', [CustomerController::class, 'store']);
 Route::post('cms', [CmsController::class, 'index']);
+Route::get('chuyen-nhuong-lai-kenh-youtube', [PageController::class,'transChannel']);
+Route::get('quy-trinh-giao-dich-kenh-youtube', [PageController::class,'methodChannel']);
+
 
 Route::get('{locale}', [LocalizationController::class, 'set'])->name('locale')->where('locale', 'en|vi');
 //Route::get('{provider}/login', [LoginController::class, 'redirectToProvider'])->name('social');

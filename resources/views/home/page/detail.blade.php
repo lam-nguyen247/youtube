@@ -1,6 +1,6 @@
 @extends('home.layouts.app')
 
-@section('title', $post->name)
+@section('title', $page->name)
 
 @section('content')
     <div class="page-wrapper new-detail">
@@ -9,7 +9,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 tour-content">
-                        <h2>{{$post->name}}</h2>
+                        <h2>{{$page->name}}</h2>
                         {{-- <div>
                             <div id="accordion">
                                 <div class="card">
@@ -31,9 +31,9 @@
                                 </div>
                             </div>
                         </div> --}}
-                        <img @src="{{$post->image}}" alt="{{$post->name}}" class="tour-image" />
+                        <img @src="{{$page->image}}" alt="{{$page->name}}" class="tour-image" />
                         <div class="tour-subtitle-wrapper">
-                            {!!$post->content!!}
+                            {!!$page->content!!}
                             {{-- <h3 id="sub_1">Subtitle 1</h3>
                             <p>
                                 Ultrices congue diam posuere mus ut ridiculus euismod. Pretium
