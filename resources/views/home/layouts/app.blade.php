@@ -142,7 +142,7 @@
                             <div class="navigation__info">
                                 <ul class="navigation-list">
                                     <li><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:{{$config->phone}}" title="Số điện thoại" data-cms="{{app()->getLocale()}}-layouts-app-70">{{$config->phone}}</a></li>
-                                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <span data-cms="{{app()->getLocale()}}-layouts-app-73">Email:</span> <a href="mailto:lnguyen24794@gmail.com" title="Email" data-cms="{{app()->getLocale()}}-layouts-app-74">lnguyen24794@gmail.com</a></li>
+                                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <span data-cms="{{app()->getLocale()}}-layouts-app-73">Email:</span> <a href="mailto:{{$config->email}}" title="Email" data-cms="{{app()->getLocale()}}-layouts-app-74">{{$config->email}}</a></li>
                                     <li><i class="fa fa-map-marker" aria-hidden="true"></i> <span data-cms="{{app()->getLocale()}}-layouts-app-77">2530 10th Ct SE Olympia WA 98501</span></li>
                                 </ul>
                             </div>
@@ -176,7 +176,7 @@
             <div class="row">
                 <div class="col-12 col-md-4 col-lg-4">
                     <div class="grid-head">
-                        <h3 class="title" data-cms="{{app()->getLocale()}}-layouts-app-93">HAVE AN <br> IDEAS ?</h3>
+                        <h4 class="title" data-cms="{{app()->getLocale()}}-layouts-app-93">HAVE AN <br> IDEAS ?</h4>
                     </div>
                 </div>
                 <div class="col-12 col-md-5 col-lg-3">
@@ -185,7 +185,8 @@
                         <ul class="footer-list">
                             <li><i class="fa fa-map-marker" aria-hidden="true"></i> <span data-cms="{{app()->getLocale()}}-layouts-app-100">2530 10th Ct SE Olympia WA 98501</span></li>
                             <li><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:{{$config->phone}}" title="Số điện thoại" data-cms="{{app()->getLocale()}}-layouts-app-103">{{$config->phone}}</a></li>
-                            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <span data-cms="{{app()->getLocale()}}-layouts-app-106">Email:</span> <a href="mailto:lnguyen24794@gmail.com" title="Email" data-cms="{{app()->getLocale()}}-layouts-app-107">lnguyen24794@gmail.com</a></li>
+                            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <span data-cms="{{app()->getLocale()}}-layouts-app-106">Email:</span> <a href="mailto:{{$config->email}}" title="Email" data-cms="{{app()->getLocale()}}-layouts-app-107">{{$config->email}}</a></li>
+                            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <span data-cms="{{app()->getLocale()}}-layouts-app-106">Zalo:</span> <a href="https://zalo.me/{{$config->email}}" title="Zalo" data-cms="{{app()->getLocale()}}-layouts-app-108">{{$config->zalo}}</a></li>
                         </ul>
                     </div>
                 </div>
