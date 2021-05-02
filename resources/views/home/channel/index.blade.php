@@ -108,6 +108,7 @@
         if (min > max) {
             alert("Giá bắt đầu phải nhỏ hơn giá kết thúc.");
         }
+        console.log(min,max);
     }
 
     function MaximumNValidate() {
@@ -116,6 +117,7 @@
         if (max < min) {
             alert("Giá kết thúc phải lớn hơn giá bắt đầu.");
         }
+        console.log(min,max);
     }
 
     function MinimumSValidate() {
