@@ -269,10 +269,9 @@
     </div>
 </div>
 <script async defer
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  src="/js/home/jquery-3.6.0.min.js"
   crossorigin="anonymous"></script>
-<script async defer type="text/javascript" src="/js/home/app.min.js"></script>
+<script async defer crossorigin="anonymous" type="text/javascript" src="/js/home/app.min.js"></script>
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v10.0&appId=585723972044551&autoLogAppEvents=1" nonce="2spNzV4z"></script>
 @yield('js')
