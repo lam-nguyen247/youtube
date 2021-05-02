@@ -34,15 +34,15 @@
                             <div class="row" style="margin-bottom: 20px;">
                                 <div class="col-lg-6 col-md-12">
                                     <label style="margin-right:10px;">Giá: </label>
-                                    <input type="number" name="price_f">
+                                    <input onkeyup="MinimumNValidate()"  type="number" name="price_f">
                                     <label>-</label>
-                                    <input type="number" name="price_t">
+                                    <input onkeyup="MaximumNValidate()"  type="number" name="price_t">
                                 </div>
                                 <div class="col-lg-6 col-md-12" style="text-align: right;">
                                     <label style="margin-right:10px;">Lượng subscribers: </label>
-                                    <input type="number" name="sub_f">
+                                    <input onkeyup="MinimumSValidate()"  type="number" name="sub_f">
                                     <label>-</label>
-                                    <input type="number" name="sub_t">
+                                    <input onkeyup="MaximumSValidate()"  type="number" name="sub_t">
                                 </div>
                                 <div class="col-12" style="margin-top:10px; text-align: right;">
                                     <button type="reset" style="background-color: #E1CE69; border: 1px solid #E1CE69; margin-right: 10px;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
@@ -102,6 +102,37 @@
 </div>
 @section("js")
 <script>
+    function MinimumNValidate() {
+        var min = document.getElementById("price_f").value;
+        var max = document.getElementById("price_t").value;
+        if (min > max) {
+            alert("Giá bắt đầu phải nhỏ hơn giá kết thúc.");
+        }
+    }
+
+    function MaximumNValidate() {
+        var min = document.getElementById("price_f").value;
+        var max = document.getElementById("price_t").value;
+        if (max < min) {
+            alert("Giá kết thúc phải lớn hơn giá bắt đầu.");
+        }
+    }
+
+    function MinimumSValidate() {
+        var min = document.getElementById("sub_f").value;
+        var max = document.getElementById("sub_t").value;
+        if (min > max) {
+            alert("Lượng subscribers bắt đầu phải nhỏ hơn kết thúc.");
+        }
+    }
+
+    function MaximumSValidate() {
+        var min = document.getElementById("sub_f").value;
+        var max = document.getElementById("sub_t").value;
+        if (max < min) {
+            alert("Lượng subscribers kết thúc phải lớn hơn bắt đầu.");
+        }
+    }
     function xemKenh(url){
         window.open(url,'_blank');
     }
