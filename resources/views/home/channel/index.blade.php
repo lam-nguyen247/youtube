@@ -29,15 +29,10 @@
             <div class="row" style="background-color:white; padding: 15px">
                 <div class="col-12 col-md-12 col-lg-12">
                     <div class="container">
-                        <div class="row">
-                            <div class="col-2">
-                                <label>Giá</label>
-                            </div>
-                            <div class="col-4">
+                        <div class="row" style="margin-bottom: 20px;">
+                            <div class="col-12">
+                                <label style="margin-right:10px;">Giá: </label>
                                 <input type="number" name="price_f">
-                            </div>
-
-                            <div class="col-4">
                                 <label>-</label>
                                 <input type="number" name="price_t">
                             </div>
