@@ -23,7 +23,7 @@ class ChannelController extends Controller
 		$arr = $response->getValues();
         $values = [];
 
-        foreach($item as $arr){
+        foreach($arr as $item){
             $item[0] = (int)str_replace('.', '', $item[0]);
             $item[3] = (int)str_replace('.', '', $item[3]);
             if(!empty($request->sub_f)){
@@ -46,6 +46,7 @@ class ChannelController extends Controller
                     continue;
                 }
             }
+            $values[] = $item;
         }
 
         return view('home.channel.index', compact("values"));
