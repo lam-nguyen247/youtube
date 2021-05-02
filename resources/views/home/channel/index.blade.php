@@ -29,6 +29,23 @@
             <div class="row" style="background-color:white; padding: 15px">
                 <div class="col-12 col-md-12 col-lg-12">
                     <div class="container">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>Giá</label>
+                            </div>
+                            <div class="col-4">
+                                <input type="number" name="price_f">
+                            </div>
+
+                            <div class="col-4">
+                                <label>-</label>
+                                <input type="number" name="price_t">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-12">
+                    <div class="container">
                         <table id="customers">
                             <thead>
                                 <tr>
