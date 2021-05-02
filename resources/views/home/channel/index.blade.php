@@ -38,13 +38,13 @@
                                     <label>-</label>
                                     <input type="number" name="price_t">
                                 </div>
-                                <div class="col-lg-6 col-md-12">
+                                <div class="col-lg-6 col-md-12" style="text-align: right;">
                                     <label style="margin-right:10px;">Lượng subscribers: </label>
                                     <input type="number" name="sub_f">
                                     <label>-</label>
                                     <input type="number" name="sub_t">
                                 </div>
-                                <div class="col-12" style="margin-top:10px">
+                                <div class="col-12" style="margin-top:10px; text-align: right;">
                                     <button type="reset" style="background-color: #E1CE69; border: 1px solid #E1CE69; margin-right: 10px;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
                                     0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px;">Hủy bỏ</button>
                                      <button type="submit" style="background-color: #8CE78C; border: 1px solid #8CE78C;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
