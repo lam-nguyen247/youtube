@@ -34,15 +34,15 @@
                             <div class="row" style="margin-bottom: 20px;">
                                 <div class="col-lg-6 col-md-12">
                                     <label style="margin-right:10px;">Giá: </label>
-                                    <input onkeyup="MinimumNValidate()"  type="number" id="price_f" name="price_f">
+                                    <input onchange="MinimumNValidate()"  type="number" id="price_f" name="price_f">
                                     <label>-</label>
-                                    <input onkeyup="MaximumNValidate()"  type="number" id="price_t" name="price_t">
+                                    <input onchange="MaximumNValidate()"  type="number" id="price_t" name="price_t">
                                 </div>
                                 <div class="col-lg-6 col-md-12" style="text-align: right;">
                                     <label style="margin-right:10px;">Lượng subscribers: </label>
-                                    <input onkeyup="MinimumSValidate()"  type="number" id="sub_f" name="sub_f">
+                                    <input onchange="MinimumSValidate()"  type="number" id="sub_f" name="sub_f">
                                     <label>-</label>
-                                    <input onkeyup="MaximumSValidate()"  type="number" id="sub_t" name="sub_t">
+                                    <input onchange="MaximumSValidate()"  type="number" id="sub_t" name="sub_t">
                                 </div>
                                 <div class="col-12" style="margin-top:10px; text-align: right;">
                                     <button type="reset" style="background-color: #E1CE69; border: 1px solid #E1CE69; margin-right: 10px;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
