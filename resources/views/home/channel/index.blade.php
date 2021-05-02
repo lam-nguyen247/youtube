@@ -71,7 +71,7 @@
                             <tbody>
                                 @for ($i = 1; $i < count($values); $i++)
                                     <tr>
-                                        <td>{{$values[$i][0]}}</td>
+                                        <td>{{number_format($values[$i][0], 0, ',', '.')}}</td>
                                         <td>
                                             <input value="{{$values[$i][1]}}" type="text" style="display: none;" id="link_{{$i}}"/>
                                             <button onclick="xemKenh('{{$values[$i][1]}}')" title="{{$values[$i][1]}}" alt="{{$values[$i][1]}}" target="_blank" style="background-color: #CF4042; border: 1px solid #CF4042;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
@@ -80,7 +80,7 @@
                                             0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px;" onclick="copy('link_{{$i}}')">Sao chép</button>
                                         </td>
                                         <td>{{$values[$i][2]}}</td>
-                                        <td>{{$values[$i][3]}}</td>
+                                        <td>{{number_format($values[$i][3], 0, ',', '.')}}</td>
                                         <td style="color: {{$values[$i][4]=='Đã bán'?'red':'black'}}">{{$values[$i][4]}}</td>
                                         <td>
                                             @if ($values[$i][4]!='Đã bán')
