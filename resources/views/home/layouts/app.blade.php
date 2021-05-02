@@ -268,7 +268,7 @@
         </div>
     </div>
 </div>
-<script async defer
+<script 
   src="/js/home/jquery-3.6.0.min.js"
   crossorigin="anonymous"></script>
 <script async defer crossorigin="anonymous" type="text/javascript" src="/js/home/app.min.js"></script>
