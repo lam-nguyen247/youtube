@@ -103,8 +103,11 @@
 @section("js")
 <script>
     $("#reset").click(function(e){
-        $("#ds").trigger("reset");
-        $( "#ds" ).submit();
+        $("#price_f").val("");
+        $("#price_t").val("");
+        $("#sub_f").val("");
+        $("#sub_t").val("");
+        $("#ds").submit();
     })
 
     $("#submit").click(function(e){
