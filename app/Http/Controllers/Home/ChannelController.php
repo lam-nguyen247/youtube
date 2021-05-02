@@ -21,6 +21,12 @@ class ChannelController extends Controller
 		// get values
 		$response = $service->spreadsheets_values->get($spreadsheetId, $range);
 		$values = $response->getValues();
+        dd($request->_token);
+        if(!empty($request->_token)){
+            foreach($item as $values){
+            
+            }
+        }
         return view('home.channel.index', compact("values"));
     }
 
