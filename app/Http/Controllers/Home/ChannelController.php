@@ -31,7 +31,7 @@ class ChannelController extends Controller
         //         }
         //     }
         // }
-        foreach($item as $arr){
+        foreach($arr as $item){
             $item[3] = (int)$item[3];
             $values[] = $item;
         }
