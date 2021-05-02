@@ -32,7 +32,7 @@ class ChannelController extends Controller
         //     }
         // }
         foreach($arr as $item){
-            $item[3] = (int)$item[3];
+            $item[3] = (int)str_replace('.', '', $item[3]);
             $values[] = $item;
         }
 
