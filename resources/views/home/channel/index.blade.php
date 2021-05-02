@@ -34,20 +34,20 @@
                             <div class="row" style="margin-bottom: 20px;">
                                 <div class="col-lg-6 col-md-12">
                                     <label style="margin-right:10px;">Giá: </label>
-                                    <input onchange="MinimumNValidate()"  type="number" id="price_f" name="price_f">
+                                    <input onchange="MinimumNValidate()" value="{{isset($_GET['price_f'])?$_GET['price_f']:0}}"  type="number" id="price_f" name="price_f">
                                     <label>-</label>
-                                    <input onchange="MaximumNValidate()"  type="number" id="price_t" name="price_t">
+                                    <input onchange="MaximumNValidate()" value="{{isset($_GET['price_t'])?$_GET['price_t']:0}}"  type="number" id="price_t" name="price_t">
                                 </div>
                                 <div class="col-lg-6 col-md-12" style="text-align: right;">
                                     <label style="margin-right:10px;">Lượng subscribers: </label>
-                                    <input onchange="MinimumSValidate()"  type="number" id="sub_f" name="sub_f">
+                                    <input onchange="MinimumSValidate()" value="{{isset($_GET['sub_f'])?$_GET['sub_f']:0}}"  type="number" id="sub_f" name="sub_f">
                                     <label>-</label>
-                                    <input onchange="MaximumSValidate()"  type="number" id="sub_t" name="sub_t">
+                                    <input onchange="MaximumSValidate()" value="{{isset($_GET['sub_t'])?$_GET['sub_t']:0}}"  type="number" id="sub_t" name="sub_t">
                                 </div>
                                 <div class="col-12" style="margin-top:10px; text-align: right;">
-                                    <button onclick="search($event)" type="reset" style="background-color: #E1CE69; border: 1px solid #E1CE69; margin-right: 10px;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
+                                    <button id="reset" type="reset" style="background-color: #E1CE69; border: 1px solid #E1CE69; margin-right: 10px;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
                                     0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px;">Hủy bỏ</button>
-                                     <button onsubmit="search($event)" type="submit" style="background-color: #8CE78C; border: 1px solid #8CE78C;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
+                                     <button id="submit" type="submit" style="background-color: #8CE78C; border: 1px solid #8CE78C;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
                                      0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px;" >Lọc</button>
                                 </div>
                             </div>
@@ -102,15 +102,7 @@
 </div>
 @section("js")
 <script>
-    function MinimumNValidate() {
-        var min = document.getElementById("price_f").value;
-        var max = document.getElementById("price_t").value;
-        if (parseInt(min) > parseInt(max)) {
-            alert("Giá bắt đầu phải nhỏ hơn giá kết thúc.");
-        }
-    }
-
-    function search(e){
+    $("#reset").click(function(e){
         var min = document.getElementById("price_f").value;
         var max = document.getElementById("price_t").value;
         if (parseInt(max ) < parseInt(min)) {
@@ -126,7 +118,26 @@
                 $( "#ds" ).submit();
             }
         }
-    }
+    })
+
+    $("#submit").click(function(e){
+        var min = document.getElementById("price_f").value;
+        var max = document.getElementById("price_t").value;
+        if (parseInt(max ) < parseInt(min)) {
+            alert("Giá kết thúc phải lớn hơn giá bắt đầu.");
+            e.preventDefault();
+        }else{
+            min = document.getElementById("sub_f").value;
+            max = document.getElementById("sub_t").value;
+            if (parseInt(min) > parseInt(max)) {
+                alert("Lượng subscribers bắt đầu phải nhỏ hơn kết thúc.");
+                e.preventDefault();
+            }else{
+                $( "#ds" ).submit();
+            }
+        }
+    })
+    
     function xemKenh(url){
         window.open(url,'_blank');
     }
