@@ -22,18 +22,30 @@ class ChannelController extends Controller
 		$response = $service->spreadsheets_values->get($spreadsheetId, $range);
 		$arr = $response->getValues();
         $values = [];
-        // if(!empty($request->_token)){
-        //     foreach($item as $arr){
-        //         if(!empty($request->price_f)){
-        //             if((int)$item[3] < $request->price_f){
-        //                 continue;
-        //             }
-        //         }
-        //     }
-        // }
-        foreach($arr as $item){
+
+        foreach($item as $arr){
+            $item[0] = (int)str_replace('.', '', $item[0]);
             $item[3] = (int)str_replace('.', '', $item[3]);
-            $values[] = $item;
+            if(!empty($request->sub_f)){
+                if($item[0] < $request->sub_f){
+                    continue;
+                }
+            }
+            if(!empty($request->sub_t)){
+                if($item[0] > $request->sub_t){
+                    continue;
+                }
+            }
+            if(!empty($request->price_f)){
+                if($item[3] < $request->price_f){
+                    continue;
+                }
+            }
+            if(!empty($request->price_f)){
+                if($item[3] > $request->price_f){
+                    continue;
+                }
+            }
         }
 
         return view('home.channel.index', compact("values"));
