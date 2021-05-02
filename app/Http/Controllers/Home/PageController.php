@@ -23,4 +23,11 @@ class PageController extends Controller
         $seo = $page->seo;
         return view('home.page.detail', compact('page', 'seo', 'postList'));
     }
+
+    public function methodChannel(){
+        $page = Page::find(12);
+        $postList = $this->postService->getPostList()->limit(5)->get();
+        $seo = $page->seo;
+        return view('home.page.detail', compact('page', 'seo', 'postList'));
+    }
 }
