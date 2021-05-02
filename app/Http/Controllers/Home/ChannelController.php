@@ -41,8 +41,8 @@ class ChannelController extends Controller
                     continue;
                 }
             }
-            if(!empty($request->price_f)){
-                if($item[3] > $request->price_f){
+            if(!empty($request->price_t)){
+                if($item[3] > $request->price_t){
                     continue;
                 }
             }
