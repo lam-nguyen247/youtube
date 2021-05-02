@@ -105,7 +105,7 @@
     function MinimumNValidate() {
         var min = document.getElementById("price_f").value;
         var max = document.getElementById("price_t").value;
-        if (min > max) {
+        if (parseInt(min) > parseInt(max)) {
             alert("Giá bắt đầu phải nhỏ hơn giá kết thúc.");
         }
         console.log(min,max);
@@ -114,7 +114,7 @@
     function MaximumNValidate() {
         var min = document.getElementById("price_f").value;
         var max = document.getElementById("price_t").value;
-        if (max < min) {
+        if (parseInt(max ) < parseInt(min)) {
             alert("Giá kết thúc phải lớn hơn giá bắt đầu.");
         }
         console.log(min,max);
@@ -123,7 +123,7 @@
     function MinimumSValidate() {
         var min = document.getElementById("sub_f").value;
         var max = document.getElementById("sub_t").value;
-        if (min > max) {
+        if (parseInt(min) > parseInt(max)) {
             alert("Lượng subscribers bắt đầu phải nhỏ hơn kết thúc.");
         }
     }
@@ -131,7 +131,7 @@
     function MaximumSValidate() {
         var min = document.getElementById("sub_f").value;
         var max = document.getElementById("sub_t").value;
-        if (max < min) {
+        if (parseInt(max ) < parseInt(min)) {
             alert("Lượng subscribers kết thúc phải lớn hơn bắt đầu.");
         }
     }
