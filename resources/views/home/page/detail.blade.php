@@ -83,7 +83,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 tour-list-item">
-                        <h4 style="text-transform: uppercase">HOME/{{$page->name}}</h4>
+                        <h4 style="text-transform: uppercase">HOME / {{$page->name}}</h4>
                         <div class="tour-search-wrapper">
                             <img @src="/images/home/icon-search.png" alt="icon-search" class="tour-search-icon" />
                             <input type="text" name="search" id="search" placeholder="Search now" class="tour-search" />
