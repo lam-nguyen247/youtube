@@ -1288,7 +1288,7 @@ html {
 }
 
 .wrapper-content * {
-  color: var(--color-black);
+  color: var(--color-black) !important;
 }
 
 .theme-switch-wrapper {
