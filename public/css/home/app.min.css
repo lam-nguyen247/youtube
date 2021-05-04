@@ -1287,6 +1287,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.wrapper-content * {
+  color: var(--color-black);
+}
+
 .theme-switch-wrapper {
   display: flex;
   align-items: center;

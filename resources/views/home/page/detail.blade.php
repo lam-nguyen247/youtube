@@ -31,8 +31,8 @@
                                 </div>
                             </div>
                         </div> --}}
-                  
-                        <div class="tour-subtitle-wrapper">
+
+                        <div class="tour-subtitle-wrapper wrapper-content">
                             {!!$page->content!!}
                             {{-- <h3 id="sub_1">Subtitle 1</h3>
                             <p>
