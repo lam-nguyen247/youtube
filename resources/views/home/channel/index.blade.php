@@ -27,7 +27,7 @@
                 </div>
             </div>
             <div class="row" style="background-color:white; padding: 15px">
-                <div class="col-12 col-md-12 col-lg-12">
+                <div style="order: 1 !important;" class="col-12 col-md-12 col-lg-12">
                     <form id="ds" action="/mua-kenh-youtube" method="GET">
                         @csrf
                         <div class="container">
@@ -54,7 +54,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-12 col-md-12 col-lg-12">
+                <div style="order: 2 !important;" class="col-12 col-md-12 col-lg-12">
                     <div class="container">
                         <table id="customers">
                             <thead>
@@ -102,7 +102,7 @@
 </div>
 @section("js")
 <script>
-    
+
     function go(){
         window.open('/quy-trinh-giao-dich-kenh-youtube', '_blank');
     }
@@ -132,7 +132,7 @@
             }
         }
     })
-    
+
     function xemKenh(url){
         window.open(url,'_blank');
     }
@@ -149,6 +149,7 @@
     $(document).ready( function () {
         $('#customers').DataTable({
             'pageLength': 25,
+            'responsive': true,
             "order": [[ 0, "desc" ]],
             "language": {
                 "sProcessing":    "Đang tìm kiếm...",
