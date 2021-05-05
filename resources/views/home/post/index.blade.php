@@ -3,7 +3,13 @@
 @section('title', __('News'))
 
 @section('content')
-
+@section('css')
+<style>
+    .page-wrapper, .grid-hero, .grid-hero__wrapp {
+        height: auto !important;
+    }
+</style>
+@endsection
 <div class="page-wrapper page-news">
     {{-- Block hero --}}
     <div class="grid-hero" id="grid-hero">
@@ -11,7 +17,7 @@
             <div class="grid-hero-bg">
                 <div class="row">
                     <div class="col-11 col-md-8 col-lg-6 col-lx-6">
-                        <div class="grid-hero__wrapp">
+                        <div class="grid-hero__wrapp" >
                             <div class="grid-hero__content">
                                 <div class="box-hero">
                                     <h2 class="title" data-cms="{{app()->getLocale()}}-news-index-9">NEWS</h2>
