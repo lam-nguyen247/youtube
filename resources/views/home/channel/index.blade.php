@@ -112,9 +112,7 @@
                 </div>
                 <div class="col-12" style="order: 3 !important;">
                     <div class="container">
-                        <div class="tour-subtitle-wrapper wrapper-content">
-                            {!!$page->content!!}
-                        </div>
+                        {!!$page->content!!}
                     </div>
                 </div>
             </div>
