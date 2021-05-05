@@ -7,6 +7,7 @@ use Exception;
 use Google_Client;
 use Google_Service_Sheets;
 use Illuminate\Http\Request;
+use App\Models\Page;
 
 class ChannelController extends Controller
 {
