@@ -77,7 +77,7 @@
                         <div class="tour-contact-wrapper">
                             <img @src="/images/home/full-red-circle.png" alt="circle" class="tour-contact-circle" />
                             <div>
-                                <a href="@lang('contact')" class="tour-contact-direct">@lang('Contact')</a>
+                                <a href="/@lang('contact')" class="tour-contact-direct">@lang('Contact')</a>
                                 <img @src="/images/home/arrow_forward_24px.png" alt="arrow direct" class="tour-contact-arrow" />
                             </div>
                         </div>
