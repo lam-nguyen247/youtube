@@ -48,8 +48,9 @@ class ChannelController extends Controller
             }
             $values[] = $item;
         }
-
-        return view('home.channel.index', compact("values"));
+        $page = Page::find(13);
+        $seo = $page->seo;
+        return view('home.channel.index', compact("values", 'page', 'seo'));
     }
 
     public function getGoogleClient()

@@ -92,7 +92,7 @@
 @section('js')
 <script src="/js/home/sweetalert.min.js"></script>
 <script>
-    swal("CÔNG TY CỔ PHẦN CÔNG NGHỆ TRUYỀN THÔNG MK MEDIA", {
+    swal("Hãy lựa chọn nhu cầu của bạn?", {
         buttons: {
             catch: {
                 text: "Tôi muốn mua kênh",
