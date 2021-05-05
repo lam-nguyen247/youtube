@@ -11,7 +11,10 @@
         text-align: center !important;
     }
     table, td, th {
-    border: 1px solid #DEDEDE !important;
+        border: 1px solid #DEDEDE !important;
+    }
+    #customers_wrapper {
+        margin-bottom: 20px !important;
     }
 </style>
 @endsection
@@ -69,7 +72,7 @@
                         </div>
                     </form>
                 </div>
-                <div style="order: 2 !important; overflow-x: scroll; padding: 0px !important" class="col-12 col-md-12 col-lg-12">
+                <div style="order: 2 !important; overflow-x: auto; padding: 0px !important" class="col-12 col-md-12 col-lg-12">
                     <table id="customers" style="margin-top: 10px;">
                         <thead>
                             <tr>
