@@ -88,7 +88,10 @@ function setText(item, data) {
     if ($submit.tagName.toLowerCase() === 'input') {
         $submit.value = data;
     } else {
-        $submit.innerText = data;
+        let span = $submit.querySelector('span');
+        if(span){
+            span.innerText = data;
+        }
     }
 }
 

@@ -20,19 +20,19 @@
                             <div class="row">
                                 <div class="form-group col-12">
                                     <label for="" data-cms="{{app()->getLocale()}}-contact-index-13">Company name</label>
-                                    <input type="text" name="company" class="form-control">
+                                    <input required type="text" name="company" class="form-control">
                                 </div>
                                 <div class="form-group col-12">
                                     <label for="" data-cms="{{app()->getLocale()}}-contact-index-16">Your name</label>
-                                    <input type="text" name="name" class="form-control">
+                                    <input required type="text" name="name" class="form-control">
                                 </div>
                                 <div class="form-group col-12">
                                     <label for="" data-cms="{{app()->getLocale()}}-contact-index-19">Phone number</label>
-                                    <input type="number" name="phone" class="form-control">
+                                    <input required type="number" name="phone" class="form-control">
                                 </div>
                                 <div class="form-group col-12">
                                     <label for="" data-cms="{{app()->getLocale()}}-contact-index-22">Email address</label>
-                                    <input type="email" name="email" class="form-control">
+                                    <input required type="email" name="email" class="form-control">
                                 </div>
                                 <div class="form-group col-12">
                                     <label for="" data-cms="{{app()->getLocale()}}-contact-index-25">Tell us about your request</label>
