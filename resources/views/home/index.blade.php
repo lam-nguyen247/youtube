@@ -15,6 +15,27 @@
         width: 100%;
         height: 100%;
     }
+    .swal-overlay {
+        background-color: rgba(30, 30, 30, 0.55);
+    }
+    .swal-button {
+        padding: 7px 19px;
+        border-radius: 2px;
+        background-color: #CF4042;
+        font-size: 20px;
+        border: 1px solid #CF4042;
+        text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+    }
+    .swal-modal{
+        min-width: 50% !important;
+        max-width: 100% !important;
+    }
+    .swal-footer{
+        text-align: center;
+    }
+    .swal-text{
+        font-size: 22px;
+    }
 </style>
 @endsection
 @section('content')
@@ -66,4 +87,33 @@
     </div>
 
     @include('home.includes.consultation')
+@endsection
+
+@section('js')
+<script src="/js/home/sweetalert.min.js"></script>
+<script>
+    swal("CÔNG TY CỔ PHẦN CÔNG NGHỆ TRUYỀN THÔNG MK MEDIA", {
+        buttons: {
+            catch: {
+                text: "Tôi muốn mua kênh",
+                value: "catch",
+            },
+            defeat: {
+                text: "Tôi muốn bán kênh",
+                value: "defeat",
+            }
+        },
+        })
+        .then((value) => {
+        switch (value) {        
+            case "defeat":
+            window.location.href = "https://youtubestore.vn/chuyen-nhuong-lai-kenh-youtube"
+            break;
+        
+            case "catch":
+                window.location.href = "https://youtubestore.vn/mua-kenh-youtube"
+            break;
+        }
+    });
+</script>
 @endsection
