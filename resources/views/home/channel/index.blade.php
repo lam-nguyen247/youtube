@@ -71,7 +71,7 @@
                 </div>
                 <div style="order: 2 !important;" class="col-12 col-md-12 col-lg-12">
                     <div class="container">
-                        <table id="customers">
+                        <table id="customers" style="margin-top: 10px;">
                             <thead>
                                 <tr>
                                     <th>{{$values[0][0]}}</th>
@@ -90,9 +90,9 @@
                                         <td>
                                             <input value="{{$values[$i][1]}}" type="text" style="display: none;" id="link_{{$i}}"/>
                                             <button onclick="xemKenh('{{$values[$i][1]}}')" title="{{$values[$i][1]}}" alt="{{$values[$i][1]}}" target="_blank" style="background-color: #CF4042; border: 1px solid #CF4042;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
-                                            0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px; margin-right: 10px" onclick="copy('link_{{$i}}')">Xem kênh</button>
+                                            0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px; margin-right: 10px; min-width: 61px;" onclick="copy('link_{{$i}}')">Xem kênh</button>
                                             <button style="background-color: #8CE78C; border: 1px solid #8CE78C;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
-                                            0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px;" onclick="copy('link_{{$i}}')">Sao chép</button>
+                                            0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px; min-width: 61px;" onclick="copy('link_{{$i}}')">Sao chép</button>
                                         </td>
                                         <td>{{$values[$i][2]}}</td>
                                         <td>{{number_format($values[$i][3], 0, ',', '.')}}</td>
