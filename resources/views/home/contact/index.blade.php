@@ -8,7 +8,7 @@
     <div class="grid-contact" id="grid-hero">
         <div class="container">
             <div class="grid-head">
-                <h2 class="title" data-cms="{{app()->getLocale()}}-contact-index-4">Hi. Please tell us <br> about your project!</h2>
+                <h2 class="title" data-cms="{{app()->getLocale()}}-contact-index-4">Hi. Please tell us <br> about your request!</h2>
                 <div class="sapo">
                     <p data-cms="{{app()->getLocale()}}-contact-index-6">Fill out our form below or send us an email.</p>
                 </div>
@@ -35,7 +35,7 @@
                                     <input type="email" name="email" class="form-control">
                                 </div>
                                 <div class="form-group col-12">
-                                    <label for="" data-cms="{{app()->getLocale()}}-contact-index-25">Tell us about your project</label>
+                                    <label for="" data-cms="{{app()->getLocale()}}-contact-index-25">Tell us about your request</label>
                                     <textarea name="content" class="form-control" rows="8"></textarea>
                                 </div>
                                 <div class="form-group col-12">
