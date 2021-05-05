@@ -70,44 +70,42 @@
                     </form>
                 </div>
                 <div style="order: 2 !important; overflow-x: scroll;" class="col-12 col-md-12 col-lg-12">
-                    <div class="container">
-                        <table id="customers" style="margin-top: 10px;">
-                            <thead>
-                                <tr>
-                                    <th>{{$values[0][0]}}</th>
-                                    <th>{{$values[0][1]}}</th>
-                                    <th>{{$values[0][2]}}</th>
-                                    <th>{{$values[0][3]}}</th>
-                                    <th>{{$values[0][4]}}</th>
-                                    <th>Liên hệ</th>
-                                  </tr>
-                            </thead>
+                    <table id="customers" style="margin-top: 10px;">
+                        <thead>
+                            <tr>
+                                <th>{{$values[0][0]}}</th>
+                                <th>{{$values[0][1]}}</th>
+                                <th>{{$values[0][2]}}</th>
+                                <th>{{$values[0][3]}}</th>
+                                <th>{{$values[0][4]}}</th>
+                                <th>Liên hệ</th>
+                                </tr>
+                        </thead>
 
-                            <tbody>
-                                @for ($i = 1; $i < count($values); $i++)
-                                    <tr>
-                                        <td>{{number_format($values[$i][0], 0, ',', '.')}}</td>
-                                        <td>
-                                            <input value="{{$values[$i][1]}}" type="text" style="display: none;" id="link_{{$i}}"/>
-                                            <button onclick="xemKenh('{{$values[$i][1]}}')" title="{{$values[$i][1]}}" alt="{{$values[$i][1]}}" target="_blank" style="background-color: #CF4042; border: 1px solid #CF4042;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
-                                            0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px; margin: 5px; min-width: 61px;" onclick="copy('link_{{$i}}')">Xem kênh</button>
-                                            <button style="background-color: #8CE78C; border: 1px solid #8CE78C; margin: 5px;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
-                                            0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px; min-width: 61px;" onclick="copy('link_{{$i}}')">Sao chép</button>
+                        <tbody>
+                            @for ($i = 1; $i < count($values); $i++)
+                                <tr>
+                                    <td>{{number_format($values[$i][0], 0, ',', '.')}}</td>
+                                    <td>
+                                        <input value="{{$values[$i][1]}}" type="text" style="display: none;" id="link_{{$i}}"/>
+                                        <button onclick="xemKenh('{{$values[$i][1]}}')" title="{{$values[$i][1]}}" alt="{{$values[$i][1]}}" target="_blank" style="background-color: #CF4042; border: 1px solid #CF4042;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
+                                        0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px; margin: 5px; min-width: 61px;" onclick="copy('link_{{$i}}')">Xem kênh</button>
+                                        <button style="background-color: #8CE78C; border: 1px solid #8CE78C; margin: 5px;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
+                                        0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px; min-width: 61px;" onclick="copy('link_{{$i}}')">Sao chép</button>
+                                    </td>
+                                    <td>{{$values[$i][2]}}</td>
+                                    <td>{{number_format($values[$i][3], 0, ',', '.')}}</td>
+                                    <td style="color: {{$values[$i][4]=='Đã bán'?'red':'black'}}">{{$values[$i][4]}}</td>
+                                    <td>
+                                        @if ($values[$i][4]!='Đã bán')
+                                        <button onclick="go()" style="background-color: #E1CE69; border: 1px solid #E1CE69;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
+                                        0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px;">Đặt mua</button>
+                                        @endif
                                         </td>
-                                        <td>{{$values[$i][2]}}</td>
-                                        <td>{{number_format($values[$i][3], 0, ',', '.')}}</td>
-                                        <td style="color: {{$values[$i][4]=='Đã bán'?'red':'black'}}">{{$values[$i][4]}}</td>
-                                        <td>
-                                            @if ($values[$i][4]!='Đã bán')
-                                            <button onclick="go()" style="background-color: #E1CE69; border: 1px solid #E1CE69;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
-                                            0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px;">Đặt mua</button>
-                                            @endif
-                                            </td>
-                                    </tr>
-                                @endfor
-                            </tbody>
-                          </table>
-                      </div>
+                                </tr>
+                            @endfor
+                        </tbody>
+                        </table>
                 </div>
             </div>
         </div>
