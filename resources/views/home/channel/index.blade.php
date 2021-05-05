@@ -48,16 +48,18 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-12" style="text-align: right; order: 2 !important">
-                                    <div class="col-2 col-sm-12">
-                                        <label style="margin-right:10px;">Lượng subscribers: </label>
-                                    </div>
-                                    <div class="col-md-4 col-sm-12">
-                                        <input  value="{{isset($_GET['sub_f'])?$_GET['sub_f']:0}}"  type="number" id="sub_f" name="sub_f">
-                                        <label>-</label>
-                                    </div>
-                                    <div class="col-md-4 col-sm-12">
-                                        <input value="{{isset($_GET['sub_t'])?$_GET['sub_t']:0}}"  type="number" id="sub_t" name="sub_t">
-                                    </div>                                    
+                                   <div class="row">
+                                        <div class="col-2 col-sm-12">
+                                            <label style="margin-right:10px;">Lượng subscribers: </label>
+                                        </div>
+                                        <div class="col-md-4 col-sm-12">
+                                            <input  value="{{isset($_GET['sub_f'])?$_GET['sub_f']:0}}"  type="number" id="sub_f" name="sub_f">
+                                            <label>-</label>
+                                        </div>
+                                        <div class="col-md-4 col-sm-12">
+                                            <input value="{{isset($_GET['sub_t'])?$_GET['sub_t']:0}}"  type="number" id="sub_t" name="sub_t">
+                                        </div>        
+                                    </div>                            
                                 </div>
                                 <div class="col-12" style="margin-top:10px; text-align: right; order: 3 !important">
                                     <button id="reset" type="submit" style="background-color: #E1CE69; border: 1px solid #E1CE69; margin-right: 10px;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
