@@ -29,6 +29,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
+use Session;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -73,7 +74,9 @@ class AppServiceProvider extends ServiceProvider
         Configuration::observe(ConfigurationObserver::class);
 
         View::share('domain', Str::slug(request()->getHost()));
-
+        if(empty(session('theme'))){
+            Session::put('theme', 'light');
+        }
         try {
             if (Cache::has('config')) {
                 $config = Cache::get('config');
