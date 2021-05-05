@@ -69,7 +69,7 @@
                         </div>
                     </form>
                 </div>
-                <div style="order: 2 !important;" class="col-12 col-md-12 col-lg-12">
+                <div style="order: 2 !important; overflow-x: scroll;" class="col-12 col-md-12 col-lg-12">
                     <div class="container">
                         <table id="customers" style="margin-top: 10px;">
                             <thead>
