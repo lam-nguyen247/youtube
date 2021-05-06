@@ -268,7 +268,55 @@
         </div>
     </div>
 </div>
-<script 
+<div class="box-contact">
+    <div class="hotline-phone" style="display: none;">
+      <div class="ring">
+        <div class="ring-circle"></div>
+        <div class="ring-circle-fill"></div>
+        <div class="ring-img-circle">
+          <a href="tel:+{{$config->phone}}" class="btn-img">
+            <img src="https://poppersdanang.com/wp-content/uploads/2020/05/phone.png" width="50">
+          </a>
+        </div>
+      </div>
+      <div class="bar">
+        <a href="tel:+{{$config->phone}}">
+          <span class="text-hotline">{{$config->phone}}</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="messenger">
+      <div class="ring">
+            <div class="">
+            <a href="https://m.me/Youtubestore.vn" class="btn-img" target="_blank">
+                <img src="https://poppersdanang.com/wp-content/uploads/2020/05/social-media.png" width="50">
+            </a>
+        </div>
+      </div>
+      <div class="bar">
+        <a href="https://m.me/Youtubestore.vn" target="_blank">
+          <span class="text-hotline">Facebook</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="zalo">
+      <div class="ring">
+            <div class="">
+          <a href="https://zalo.me/{{$config->phone}}" class="btn-img" target="_blank">
+            <img src="https://poppersdanang.com/wp-content/uploads/2020/05/communication.png" width="50">
+          </a>
+        </div>
+      </div>
+      <div class="bar">
+        <a href="https://zalo.me/{{$config->phone}}" target="_blank">
+          <span class="text-hotline">Zalo</span>
+        </a>
+      </div>
+    </div>
+</div>
+<script
   src="/js/home/jquery-3.6.0.min.js"
   crossorigin="anonymous"></script>
 <script async defer crossorigin="anonymous" type="text/javascript" src="/js/home/app.min.js"></script>
