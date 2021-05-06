@@ -16,6 +16,11 @@
     #customers_wrapper {
         margin-bottom: 20px !important;
     }
+    @media only screen and (max-width: 768px) {
+        #box-filter{
+            text-align: center !important;
+        }
+    }
 </style>
 @endsection
 @section('content')
@@ -62,7 +67,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12" style="margin-top:10px; text-align: right; order: 3 !important">
+                                <div class="col-12" id="box-filter" style="margin-top:10px; text-align: right; order: 3 !important">
                                     <button id="reset" type="submit" style="background-color: #E1CE69; border: 1px solid #E1CE69; margin-right: 10px;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
                                     0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px;">Hủy bỏ</button>
                                      <button id="submit" type="submit" style="background-color: #8CE78C; border: 1px solid #8CE78C;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
