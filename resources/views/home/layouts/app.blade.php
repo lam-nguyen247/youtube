@@ -11,7 +11,7 @@
         <meta name="robots" content="{{$seo->robots}}" />
     @else
         <title>@yield('title') </title>
-        <meta name="description" content="@yield('title') ">
+        <meta name="description" content="@yield('description') ">
     @endif
     @cms
     <!-- Favicon icon -->
