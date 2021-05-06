@@ -4,7 +4,11 @@ namespace App\Http\Controllers\Home;
 
 use App\Http\Controllers\Controller;
 use App\Models\Customer;
+use App\Notifications\CustomerNotification;
+use Exception;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Notification;
 
 class CustomerController extends Controller
 {
@@ -13,6 +17,11 @@ class CustomerController extends Controller
         $request['domain'] = $request->getHost();
         $request['theme'] = session('theme');
         $request['language'] = session('locale');
-        Customer::create($request->all());
+        $customer = Customer::create($request->all());
+        try{
+            Notification::route('mail', 'lnguyen24794@gmail.com')->notify(new CustomerNotification($customer));
+        }catch(Exception $err){
+            Log::log("Email", $err);
+        }
     }
 }
