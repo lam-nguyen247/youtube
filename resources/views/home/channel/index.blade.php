@@ -126,6 +126,9 @@
 </div>
 @endsection
 @section("js")
+<script
+  src="/js/home/datatable.min.js"
+  ></script>
 <script>
 
     function go(){
