@@ -237,6 +237,12 @@
 <a id="scrolltop" class="scroll-top" onclick="document.documentElement.scrollIntoView({ behavior: 'smooth' });">
     <svg class="icon icon-chevron-up"><use xlink:href="#icon-chevron-up"></use></svg>
 </a>
+<div class="overlay" id="modal-overlay"></div>
+<div class="modal" id="modal-form">
+    <button class="modal-close-btn" id="close-btn">
+        <svg class="icon"><use xlink:href="#icon-close"></use></svg>
+    </button>   
+</div>
 <div class="box-contact">
     <div class="hotline-phone" style="display: none;">
         <div class="ring">
