@@ -1,6 +1,6 @@
 @extends('home.layouts.app')
 
-@section('title', __('Home'))
+@section('title', 'Youtubestore.vn Đơn Vị Mua Bán Chuyển Nhượng Kênh Youtube Uy Tín')
 @section('css')
 
 <style>
