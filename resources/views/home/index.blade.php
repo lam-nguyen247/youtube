@@ -74,7 +74,7 @@
                         Đưa Sản Phẩm, Doanh Nghiệp của bạn đến với khách hàng mà không tốn phí.
                         Giúp khách hàng đánh giá, nhìn nhận đúng và rõ hơn về Sản Phẩm, Doanh Nghiệp
                     </p>
-                    <div class="btn-normal">
+                    <div class="btn-normal" style="margin-top: 10px;">
                         <a style="background: #4F4F4F; border-radius: 24px;" href="/@lang('channels')" title="Get to know us">
                             <span style="color: white !important" class="btn-normal__title" data-cms="{{app()->getLocale()}}-index-30">Danh Sách Kênh</span>
                             <svg style="color: white !important" class="icon"><use xlink:href="#icon-arrow"></use></svg>
