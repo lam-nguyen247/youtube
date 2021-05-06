@@ -4436,7 +4436,7 @@ footer .footer-content .footer-list.footer-list--social li a:hover {
 .language-picker {
   position: fixed;
   top: 17px;
-  right: 10px;
+  right: 75px;
   margin-left: auto;
   z-index: 2000;
   cursor: pointer;
