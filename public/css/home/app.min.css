@@ -2523,6 +2523,10 @@ header .header__nav .title {
   .box-service-home {
     min-height: 0 !important;
   }
+
+  .box-news {
+    width: 400px !important;
+  }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
@@ -4070,6 +4074,7 @@ form .btn-normal a:hover .btn-normal__title {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 3rem;
   transition: 3s ease all;
+  height: 480px;
   -moz-transition: 3s ease all;
   -webkit-transition: 3s ease all;
   box-sizing: border-box;
