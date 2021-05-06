@@ -4209,11 +4209,12 @@ footer {
   #customers td, #customers th {
     border: 1px solid $color-text;
     padding: 8px;
+    vertical-align: middle;
   }
 
   #customers tr{background-color: $bg-white;}
 
-  #customers tr:hover {background-color: $bg-primary;}
+  #customers tr:hover {background-color: rgba(225,206,105, 0.7);}
 
   #customers th {
     padding-top: 12px;
