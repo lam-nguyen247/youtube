@@ -103,9 +103,6 @@
                                         @endif
                                     </td>
                                     <td style="color: {{$values[$i][4]=='Đã bán'?'red':'black'}}">{{$values[$i][4]}}</td>
-                                    <td>
-
-                                    </td>
                                 </tr>
                             @endfor
                         </tbody>

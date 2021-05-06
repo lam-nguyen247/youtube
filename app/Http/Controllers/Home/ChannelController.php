@@ -26,6 +26,7 @@ class ChannelController extends Controller
 
         foreach($arr as $key=>$item){
             if($key == 0){
+                $values[] = $item;
                 continue;
             }
             $item[0] = (int)str_replace('.', '', $item[0]);
