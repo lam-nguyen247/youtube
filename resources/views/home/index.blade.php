@@ -77,7 +77,7 @@
                     <div class="btn-normal">
                         <a style="background: #4F4F4F; border-radius: 24px;" href="/@lang('channels')" title="Get to know us">
                             <span style="color: white !important" class="btn-normal__title" data-cms="{{app()->getLocale()}}-index-30">Danh Sách Kênh</span>
-                            <svg class="icon"><use xlink:href="#icon-arrow"></use></svg>
+                            <svg style="color: white !important" class="icon"><use xlink:href="#icon-arrow"></use></svg>
                         </a>
                     </div>
                 </div>
