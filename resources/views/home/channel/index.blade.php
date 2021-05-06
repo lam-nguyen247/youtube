@@ -54,10 +54,10 @@
                                         <div class="col-2 col-sm-12">
                                             <label style="margin-right:10px;">Lượng subscribers: </label>
                                         </div>
-                                        <div class="col-md-5 col-sm-12">
+                                        <div class="col-md-6 col-sm-12">
                                             <span> Từ </span> <input style="width: 85%; margin-bottom: 10px; margin-left: 5px;"  value="{{isset($_GET['sub_f'])?$_GET['sub_f']:0}}"  type="number" id="sub_f" name="sub_f">
                                         </div>
-                                        <div class="col-md-5 col-sm-12">
+                                        <div class="col-md-6 col-sm-12">
                                             <span> Đến </span> <input style="width: 85%; margin-bottom: 10px; margin-left: 5px;" value="{{isset($_GET['sub_t'])?$_GET['sub_t']:0}}"  type="number" id="sub_t" name="sub_t">
                                         </div>
                                     </div>
