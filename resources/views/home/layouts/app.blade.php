@@ -281,7 +281,7 @@
       </div>
       <div class="bar">
         <a href="tel:+84899707888">
-          <span class="text-hotline">{{$config->phone}}</span>
+          <span class="text-hotline">{{$config->zalo}}</span>
         </a>
       </div>
     </div>
@@ -304,13 +304,13 @@
     <div class="zalo">
       <div class="ring">
             <div class="">
-          <a href="https://zalo.me/{{$config->phone}}" class="btn-img" target="_blank">
-            <img src="/images/home/communication.png" width="50">
+                <a href="https://zalo.me/{{$config->zalo}}" class="btn-img" target="_blank">
+                <img src="/images/home/communication.png" width="50">
           </a>
         </div>
       </div>
       <div class="bar">
-        <a href="https://zalo.me/{{$config->phone}}" target="_blank">
+        <a href="https://zalo.me/{{$config->zalo}}" target="_blank">
           <span class="text-hotline">Zalo</span>
         </a>
       </div>
