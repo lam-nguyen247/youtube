@@ -224,7 +224,7 @@
                 <div class="col-8 col-md-3 col-lg-3">
                     <div class="footer-content">
                         <h3 class="title">@lang('Follow us')</h3>
-                        <div class="fb-page" data-href="https://www.facebook.com/Youtubestore.vn" data-tabs="timeline" data-width="" data-height="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Youtubestore.vn" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Youtubestore.vn">Youtubestore.vn</a></blockquote></div>
+                        <div class="fb-page" data-href="https://www.facebook.com/Youtubestore.vn" data-tabs="timeline" data-width="" data-height="200" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Youtubestore.vn" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Youtubestore.vn">Youtubestore.vn</a></blockquote></div>
                     </div>
                 </div>
             </div>
@@ -237,51 +237,6 @@
 <a id="scrolltop" class="scroll-top" onclick="document.documentElement.scrollIntoView({ behavior: 'smooth' });">
     <svg class="icon icon-chevron-up"><use xlink:href="#icon-chevron-up"></use></svg>
 </a>
-<div class="overlay" id="modal-overlay"></div>
-<div class="modal" id="modal-form">
-    <button class="modal-close-btn" id="close-btn">
-        <svg class="icon"><use xlink:href="#icon-close"></use></svg>
-    </button>
-    <div class="modal-content">
-        <div class="grid-head">
-            <h3 class="title" data-cms="{{app()->getLocale()}}-layouts-app-171">NEED CONSULTANCY?</h3>
-            <div class="sapo">
-                <p data-cms="{{app()->getLocale()}}-layouts-app-173">Stop hesitating and increase your sales with YOUTUBESTORE!</p>
-                <p data-cms="{{app()->getLocale()}}-layouts-app-174">Fill out our form below or send us an email.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-lg-6">
-                <div class="modal-content__form">
-                    <form action="">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Full Name">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Phone Number/ Email">
-                        </div>
-                        <div class="form-group">
-                            <textarea name="message" class="form-control" rows="5" placeholder="Tell us about your project."></textarea>
-                        </div>
-                        <div class="form-group">
-                            <div class="btn-normal">
-                                <button class="btn button-submit" type="submit">
-                                    <span class="btn-normal__title" data-cms="{{app()->getLocale()}}-layouts-app-188">Send to US</span>
-                                    <svg class="icon"><use xlink:href="#icon-arrow"></use></svg>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div class="col-12 col-lg-6">
-                <div class="modal-content__image">
-                    <img @src="/images/home/img-contact-form.png" alt="img contact form" data-cms="{{app()->getLocale()}}-layouts-app-193">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 <div class="box-contact">
     <div class="hotline-phone" style="display: none;">
         <div class="ring">
