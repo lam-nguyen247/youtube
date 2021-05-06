@@ -274,13 +274,13 @@
         <div class="ring-circle"></div>
         <div class="ring-circle-fill"></div>
         <div class="ring-img-circle">
-          <a href="tel:+{{$config->phone}}" class="btn-img">
+          <a href="tel:+84899707888" class="btn-img">
             <img src="/images/home/phone.png" width="50">
           </a>
         </div>
       </div>
       <div class="bar">
-        <a href="tel:+{{$config->phone}}">
+        <a href="tel:+84899707888">
           <span class="text-hotline">{{$config->phone}}</span>
         </a>
       </div>
