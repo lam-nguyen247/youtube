@@ -283,11 +283,27 @@
     </div>
 </div>
 <div class="box-contact">
+    <div class="hotline-phone" style="display: none;">
+        <div class="ring">
+          <div class="ring-circle"></div>
+          <div class="ring-circle-fill"></div>
+          <div class="ring-img-circle">
+            <a href="tel:+84899707888" class="btn-img">
+              <img src="/images/home/phone.png" width="38">
+            </a>
+          </div>
+        </div>
+        {{-- <div class="bar">
+          <a href="tel:+84899707888">
+            <span class="text-hotline">{{$config->zalo}}</span>
+          </a>
+        </div> --}}
+    </div>
     <div class="messenger">
       <div class="ring">
             <div class="">
             <a href="https://m.me/Youtubestore.vn" class="btn-img" target="_blank">
-                <img src="/images/home/social-media.png" width="50">
+                <img src="/images/home/social-media.png" width="38">
             </a>
         </div>
       </div>
@@ -302,7 +318,7 @@
       <div class="ring">
             <div class="">
                 <a href="https://zalo.me/{{$config->zalo}}" class="btn-img" target="_blank">
-                <img src="/images/home/communication.png" width="50">
+                <img src="/images/home/communication.png" width="38">
           </a>
         </div>
       </div>
@@ -313,22 +329,7 @@
       </div>
     </div>
 </div>
-<div class="hotline-phone" style="display: none;">
-    <div class="ring">
-      <div class="ring-circle"></div>
-      <div class="ring-circle-fill"></div>
-      <div class="ring-img-circle">
-        <a href="tel:+84899707888" class="btn-img">
-          <img src="/images/home/phone.png" width="50">
-        </a>
-      </div>
-    </div>
-    {{-- <div class="bar">
-      <a href="tel:+84899707888">
-        <span class="text-hotline">{{$config->zalo}}</span>
-      </a>
-    </div> --}}
-</div>
+
 <script
   src="/js/home/jquery-3.6.0.min.js"
   crossorigin="anonymous"></script>

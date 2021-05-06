@@ -43,9 +43,9 @@ html {
 
 .box-contact{
 	position:fixed;
-	bottom:5%;
-	right:0px;
-	padding-right:20px;
+	bottom: -35px;
+	left:0px;
+	padding-left:30px;
 	z-index:99999;
 }
 .messenger{
@@ -82,7 +82,7 @@ html {
 }
 .messenger .bar{
 	bottom:27px !important;
-	right: 10px  !important;
+	left:10px !important;
 }
 
 .zalo {
@@ -113,39 +113,39 @@ html {
 }
 .zalo .bar{
 	bottom:56px !important;
-	right: 10px  !important;
+	left:10px !important;
 }
 
 .hotline-phone {
-    position: fixed;
+    top: 58%;
+    left: 32px;
     z-index: 999999;
     transform: translate(-23%);
-    bottom: -7px;
-    left: 40px;
 }
 .ring {
     position: relative;
     visibility: visible;
     background-color: transparent;
+    width: 110px;
     height: 100px;
     cursor: pointer;
     z-index: 11;
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0);
     transition: visibility .5s;
-    right: 0;
+    left: 0;
     bottom: 0;
     display: block;
 }
 .ring-circle {
     width: 85px;
     height: 85px;
-    bottom: 10px;
-    left: -45px;
+    top: 10px;
+    left: 4px;
     position: absolute;
     background-color: transparent;
     border-radius: 100%;
-    border: 2px solid#1E88E5;
+    border: 2px solid #1E88E5;
     -webkit-animation: circle-anim 1.2s infinite ease-in-out;
     animation: circle-anim 1.2s infinite ease-in-out;
     transition: all .5s;
@@ -158,9 +158,9 @@ html {
     width: 55px;
     height: 55px;
     top: 25px;
-    left: -30px;
+    left: 17px;
     position: absolute;
-    background-color: rgba(30, 136, 229, 0.7);
+    background-color: rgba(30, 136, 229,  0.7);
     border-radius: 100%;
     border: 2px solid transparent;
     -webkit-animation: circle-fill-anim 2.3s infinite ease-in-out;
@@ -171,11 +171,11 @@ html {
     transform-origin: 50% 50%;
 }
 .ring-img-circle {
-    background-color:#1E88E5;
-    width: 40px;
+    background-color: #1E88E5;
+	  width: 40px;
     height: 40px;
     top: 33px;
-    left: -21px;
+    left: 26px;
     position: absolute;
     background-size: 20px;
     border-radius: 100%;
@@ -212,7 +212,7 @@ img {
 .bar {
     opacity:0;
     position: absolute;
-    background: rgba(30, 136, 229, 0.75);
+    background: rgba(30, 136, 229,  0.75);
     height: 40px;
     width: 200px;
     line-height: 40px;
@@ -226,7 +226,7 @@ img {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.1);
     border-radius: 50px !important;
     /* width: 175px !important; */
-    right: 33px;
+    left: 33px;
     bottom: 27px;
 }
 .bar > a {
@@ -293,10 +293,23 @@ img {
   }
 }
 
+.box-mobile{
+	position:fixed;
+	bottom:0px;
+	height:40px;
+	width: 100%;
+	background-color: rgba(34,34,34,0.5);
+	display:none;
+	z-index:999999999999
+}
+
 @media(max-width:767px){
 	.hotline-phone{
 		display: block !important;
 	}
+    .new-detail .tour .tour-content h2{
+        font-size: 24px;
+    }
 }
 
 .wrapper-content *{
