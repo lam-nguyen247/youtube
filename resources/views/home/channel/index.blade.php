@@ -119,6 +119,7 @@
     {{-- Block action --}}
     @include('home.includes.consultation')
 </div>
+@endsection
 @section("js")
 <script>
 
