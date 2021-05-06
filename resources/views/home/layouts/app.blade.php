@@ -199,7 +199,7 @@
                         <ul class="footer-list">
                             <li><a href="tel:{{$config->phone}}" title="Số điện thoại">{{$config->phone}}</a></li>
                             <li><span>Email:</span> <a href="mailto:{{$config->email}}" title="Email" >{{$config->email}}</a></li>
-                            <li><span>Zalo:</span> <a href="https://zalo.me/{{$config->email}}" title="Zalo" >{{$config->zalo}}</a></li>
+                            <li><span>Zalo:</span> <a href="https://zalo.me/{{$config->zalo}}" title="Zalo" >{{$config->zalo}}</a></li>
                         </ul>
                     </div>
                 </div>
