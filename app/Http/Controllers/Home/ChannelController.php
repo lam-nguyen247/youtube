@@ -24,7 +24,10 @@ class ChannelController extends Controller
 		$arr = $response->getValues();
         $values = [];
 
-        foreach($arr as $item){
+        foreach($arr as $key=>$item){
+            if($key == 0){
+                continue;
+            }
             $item[0] = (int)str_replace('.', '', $item[0]);
             $item[3] = (int)str_replace('.', '', $item[3]);
             if(!empty($request->sub_f)){

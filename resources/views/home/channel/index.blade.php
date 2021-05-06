@@ -41,12 +41,12 @@
                                             <label style="margin-right:10px;">Giá: </label>
                                         </div>
                                         <div class="col-md-4 col-sm-12">
-                                            <input style="width: 100%; margin-bottom: 10px" value="{{isset($_GET['price_f'])?$_GET['price_f']:0}}"  type="number" id="price_f" name="price_f">
+                                            <input style="width: 100%; margin-bottom: 10px" placeholder="từ" value="{{isset($_GET['price_f'])?$_GET['price_f']:0}}"  type="number" id="price_f" name="price_f">
                                         </div>
                                         <div class="col-md-4 col-sm-12">
-                                            <input style="width: 100%; margin-bottom: 10px"  value="{{isset($_GET['price_t'])?$_GET['price_t']:0}}"  type="number" id="price_t" name="price_t">
+                                            <input style="width: 100%; margin-bottom: 10px" placeholder="đến"  value="{{isset($_GET['price_t'])?$_GET['price_t']:0}}"  type="number" id="price_t" name="price_t">
                                         </div>
-    
+
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-12" style="order: 2 !important">
@@ -59,8 +59,8 @@
                                         </div>
                                         <div class="col-md-4 col-sm-12">
                                             <input style="width: 100%; margin-bottom: 10px" value="{{isset($_GET['sub_t'])?$_GET['sub_t']:0}}"  type="number" id="sub_t" name="sub_t">
-                                        </div>        
-                                    </div>                            
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-12" style="margin-top:10px; text-align: right; order: 3 !important">
                                     <button id="reset" type="submit" style="background-color: #E1CE69; border: 1px solid #E1CE69; margin-right: 10px;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
@@ -81,7 +81,6 @@
                                 <th>{{$values[0][2]}}</th>
                                 <th>{{$values[0][3]}}</th>
                                 <th>{{$values[0][4]}}</th>
-                                <th>Liên hệ</th>
                                 </tr>
                         </thead>
 
@@ -97,14 +96,16 @@
                                         0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px; min-width: 61px;" onclick="copy('link_{{$i}}')">Sao chép</button>
                                     </td>
                                     <td>{{$values[$i][2]}}</td>
-                                    <td>{{number_format($values[$i][3], 0, ',', '.')}}</td>
-                                    <td style="color: {{$values[$i][4]=='Đã bán'?'red':'black'}}">{{$values[$i][4]}}</td>
-                                    <td>
+                                    <td>{{number_format($values[$i][3], 0, ',', '.')}} <br/>
                                         @if ($values[$i][4]!='Đã bán')
                                         <button onclick="go()" style="background-color: #E1CE69; border: 1px solid #E1CE69;  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
                                         0 1px 18px 0 rgb(0 0 0 / 12%); padding: 5px 10px;">Đặt mua</button>
                                         @endif
-                                        </td>
+                                    </td>
+                                    <td style="color: {{$values[$i][4]=='Đã bán'?'red':'black'}}">{{$values[$i][4]}}</td>
+                                    <td>
+
+                                    </td>
                                 </tr>
                             @endfor
                         </tbody>
