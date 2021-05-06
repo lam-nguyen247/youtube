@@ -2525,7 +2525,7 @@ header .header__nav .title {
   }
 
   .box-news {
-    width: 400px !important;
+    height: 400px !important;
   }
 }
 
