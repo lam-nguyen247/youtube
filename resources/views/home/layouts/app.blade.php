@@ -10,8 +10,8 @@
         <meta name="description" content="{{$seo->description}}">
         <meta name="robots" content="{{$seo->robots}}" />
     @else
-        <title>@yield('title') - {{config('app.name')}}</title>
-        <meta name="description" content="@yield('title') - {{config('app.name')}}">
+        <title>@yield('title') </title>
+        <meta name="description" content="@yield('title') ">
     @endif
     @cms
     <!-- Favicon icon -->
