@@ -2527,6 +2527,14 @@ header .header__nav .title {
   .box-news {
     height: 400px !important;
   }
+
+  .box-news .box-subtitle {
+    font-size: 13px !important;
+  }
+
+  .box-news .box-title {
+    font-size: 15px !important;
+  }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {

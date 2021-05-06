@@ -1364,6 +1364,12 @@ header {
     }
     .box-news{
         height: 400px !important;
+        .box-subtitle {
+            font-size: 13px !important;
+        }
+        .box-title {
+            font-size: 15px !important;
+        }
     }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
