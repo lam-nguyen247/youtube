@@ -75,8 +75,8 @@
                         Giúp khách hàng đánh giá, nhìn nhận đúng và rõ hơn về Sản Phẩm, Doanh Nghiệp
                     </p>
                     <div class="btn-normal">
-                        <a href="/@lang('channels')" title="Get to know us">
-                            <span class="btn-normal__title" data-cms="{{app()->getLocale()}}-index-30">Danh Sách Kênh</span>
+                        <a style="background: #4F4F4F; border-radius: 24px;" href="/@lang('channels')" title="Get to know us">
+                            <span style="color: white !important" class="btn-normal__title" data-cms="{{app()->getLocale()}}-index-30">Danh Sách Kênh</span>
                             <svg class="icon"><use xlink:href="#icon-arrow"></use></svg>
                         </a>
                     </div>
@@ -105,11 +105,11 @@
         },
         })
         .then((value) => {
-        switch (value) {        
+        switch (value) {
             case "defeat":
             window.location.href = "https://youtubestore.vn/chuyen-nhuong-lai-kenh-youtube"
             break;
-        
+
             case "catch":
                 window.location.href = "https://youtubestore.vn/mua-kenh-youtube"
             break;
