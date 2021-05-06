@@ -1358,10 +1358,11 @@ html {
 }
 
 .hotline-phone {
-  top: 58%;
-  right: 32px;
+  position: fixed;
   z-index: 999999;
   transform: translate(-23%);
+  bottom: -7px;
+  left: 40px;
 }
 
 .ring {
@@ -1382,8 +1383,8 @@ html {
 .ring-circle {
   width: 85px;
   height: 85px;
-  top: 10px;
-  right: -27px;
+  bottom: 10px;
+  left: -45px;
   position: absolute;
   background-color: transparent;
   border-radius: 100%;
@@ -1399,7 +1400,7 @@ html {
   width: 55px;
   height: 55px;
   top: 25px;
-  right: -12px;
+  left: -30px;
   position: absolute;
   background-color: rgba(30, 136, 229, 0.7);
   border-radius: 100%;
@@ -1415,7 +1416,7 @@ html {
   width: 40px;
   height: 40px;
   top: 33px;
-  right: -5px;
+  left: -21px;
   position: absolute;
   background-size: 20px;
   border-radius: 100%;
