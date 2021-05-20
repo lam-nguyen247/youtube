@@ -184,12 +184,12 @@
             <div class="row">
                 <div class="col-12 col-md-4 col-lg-4">
                     <div class="footer-content">
-                        <h1 style="font-size: 2rem" class="title" data-cms="{{app()->getLocale()}}-layouts-app-93">HAVE AN <br> IDEAS ?</h1>
+                        <h1 style="font-size: 2rem" class="title" data-cms="{{app()->getLocale()}}-layouts-app-93">Thông tin công ty</h1>
                         <ul class="footer-list">
-                            <li><span data-cms="{{app()->getLocale()}}-layouts-app-100">2530 10th Ct SE Olympia WA 98501</span></li>
-                            <li><span data-cms="{{app()->getLocale()}}-layouts-app-100-2">2530 10th Ct SE Olympia WA 98501</span></li>
-                            <li><span data-cms="{{app()->getLocale()}}-layouts-app-100-3">2530 10th Ct SE Olympia WA 98501</span></li>
-                            <li><span data-cms="{{app()->getLocale()}}-layouts-app-106-2">Mã số thuế: 12345678</span> </li>
+                            <li><span data-cms="{{app()->getLocale()}}-layouts-app-100">Địa chỉ 1: Số 28A Ngõ 162 Khương Đình - Thanh Xuân - Hà Nội </span></li>
+                            <li><span data-cms="{{app()->getLocale()}}-layouts-app-100-2">Địa chỉ 2: 62A Đà Sơn, Hoà Khánh Nam, Liên Chiểu, Tp. Đà Nẵng</span></li>
+                            <li><span data-cms="{{app()->getLocale()}}-layouts-app-100-3">CÔNG TY CỔ PHẦN CÔNG NGHỆ TRUYỀN THÔNG MK MEDIA</span></li>
+                            <li><span data-cms="{{app()->getLocale()}}-layouts-app-106-2">Mã số thuế: 0109379379</span> </li>
                         </ul>
                     </div>
                 </div>
