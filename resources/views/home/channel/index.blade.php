@@ -178,7 +178,7 @@
         $('#customers').DataTable({
             'pageLength': 25,
             'responsive': true,
-            "order": [[ 0, "desc" ]],
+            "order": [[ 4, "desc" ], [ 0, "desc" ]],
             "language": {
                 "sProcessing":    "Đang tìm kiếm...",
                 "sLengthMenu":    "Hiển thị _MENU_ kênh",
