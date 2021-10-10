@@ -26,6 +26,11 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-PZ6T4PS');</script>
     <!-- End Google Tag Manager -->
+
+    <!--ads-->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4885114851785989"
+     crossorigin="anonymous"></script>
+    <!--end ads-->
     @yield('css')
 </head>
 <body id="body-site">
@@ -241,7 +246,7 @@
 <div class="modal" id="modal-form">
     <button class="modal-close-btn" id="close-btn">
         <svg class="icon"><use xlink:href="#icon-close"></use></svg>
-    </button>   
+    </button>
 </div>
 <div class="box-contact">
     <div class="hotline-phone" style="display: none;">
@@ -297,6 +302,9 @@
 <script async defer crossorigin="anonymous" type="text/javascript" src="/js/home/app.min.js"></script>
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v10.0&appId=585723972044551&autoLogAppEvents=1" nonce="2spNzV4z"></script>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 @yield('js')
 </body>
 </html>
