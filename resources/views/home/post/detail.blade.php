@@ -16,7 +16,7 @@
                         </div>
                         <div>
                             <ins class="adsbygoogle"
-                            style="display:block"
+                            style="display:block !important;"
                             data-ad-client="ca-pub-4885114851785989"
                             data-ad-slot="6830795445"
                             data-ad-format="auto"
