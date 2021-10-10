@@ -13,6 +13,12 @@
                         <img @src="{{$post->image}}" alt="{{$post->name}}" class="tour-image" />
                         <div class="tour-subtitle-wrapper wrapper-content">
                             {!!$post->content!!}
+                            <ins class="adsbygoogle"
+                            style="display:block"
+                            data-ad-client="ca-pub-4885114851785989"
+                            data-ad-slot="6830795445"
+                            data-ad-format="auto"
+                            data-full-width-responsive="true"></ins>
                         </div>
                         <div class="tour-contact-wrapper">
                             <img @src="/images/home/full-red-circle.png" alt="circle" class="tour-contact-circle" />
