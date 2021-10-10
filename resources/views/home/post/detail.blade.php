@@ -13,6 +13,8 @@
                         <img @src="{{$post->image}}" alt="{{$post->name}}" class="tour-image" />
                         <div class="tour-subtitle-wrapper wrapper-content">
                             {!!$post->content!!}
+                        </div>
+                        <div>
                             <ins class="adsbygoogle"
                             style="display:block"
                             data-ad-client="ca-pub-4885114851785989"
