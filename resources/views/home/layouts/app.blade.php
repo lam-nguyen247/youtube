@@ -223,6 +223,11 @@
                         <ul class="footer-list">
                             <li><a href="/@lang('channels')" title="@lang('Channels')">@lang('Channels')</a></li>
                             <li><a href="/@lang('buy-channels')" title="@lang('Buy-Channels')">@lang('Buy-Channels')</a></li>
+                            <li><a href="/chinh-sach-bao-mat" title="Chính sách bảo mật">Chính sách bảo mật</a></li>
+                            <li><a href="/chinh-sach-giao-nhan-cai-dat" title="Chính sách giao nhận & cài đặt">Chính sách giao nhận & cài đặt</a></li>
+                            <li><a href="/chinh-sach-hoan-tien" title="Chính sách hoàn tiền">Chính sách hoàn tiền</a></li>
+                            <li><a href="/chinh-sach-thanh-toan" title="Chính sách thanh toán">Chính sách thanh toán</a></li>
+                            <li><a href="/thong-tin-cong-ty" title="Thông tin công ty">Thông tin công ty</a></li>
                         </ul>
                     </div>
                 </div>

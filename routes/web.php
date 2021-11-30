@@ -41,6 +41,11 @@ Route::post('customer', [CustomerController::class, 'store']);
 Route::post('cms', [CmsController::class, 'index']);
 Route::get('chuyen-nhuong-lai-kenh-youtube', [PageController::class,'transChannel']);
 Route::get('quy-trinh-giao-dich-kenh-youtube', [PageController::class,'methodChannel']);
+Route::get('chinh-sach-bao-mat', [PageController::class,'privacyPolicy']);
+Route::get('chinh-sach-giao-nhan-cai-dat', [PageController::class,'deliveryPolicy']);
+Route::get('chinh-sach-hoan-tien', [PageController::class,'refundPolicy']);
+Route::get('chinh-sach-thanh-toan', [PageController::class,'paymentPolicy']);
+Route::get('thong-tin-cong-ty', [PageController::class,'companyInfo']);
 
 
 Route::get('{locale}', [LocalizationController::class, 'set'])->name('locale')->where('locale', 'en|vi');
