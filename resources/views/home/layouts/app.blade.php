@@ -298,6 +298,9 @@
           <span class="text-hotline">Zalo</span>
         </a>
       </div>
+      <div class="bar">
+        <a href='http://online.gov.vn/Home/WebDetails/89727><img alt='' title='' src='http://online.gov.vn/Content/EndUser/LogoCCDVSaleNoti/logoSaleNoti.png'/></a>
+      </div>
     </div>
 </div>
 
