@@ -206,7 +206,7 @@
                             <li><span>Email:</span> <a href="mailto:{{$config->email}}" title="Email" >{{$config->email}}</a></li>
                             <li><span>Zalo:</span> <a href="https://zalo.me/{{$config->zalo}}" title="Zalo" >{{$config->zalo}}</a></li>
                             <li>
-                                <a href='https://online.gov.vn/Home/WebDetails/89727><img alt='' title=''> <img style="width: 100%" src='https://online.gov.vn/Content/EndUser/LogoCCDVSaleNoti/logoSaleNoti.png'/></a>
+                                <a href='http://online.gov.vn/Home/WebDetails/89727><img alt='' title=''> <img style="width:100%" src='/public/images/logoSaleNoti.png'/></a>
                             </li>
                         </ul>
                     </div>
