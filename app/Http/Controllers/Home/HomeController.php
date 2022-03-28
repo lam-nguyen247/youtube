@@ -9,6 +9,7 @@ class HomeController extends Controller
 {
     public function index()
     {
+        dd(1);
         $agent = new Agent();
         return view('home.index', compact('agent'));
     }
