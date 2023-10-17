@@ -15,7 +15,7 @@
     @endif
     @cms
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" href="/images/home/logo-white.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="/images/home/logo-white-icon.png">
     <link rel="canonical" href="{{request()->url()}}">
     <!-- Custom CSS -->
     <link href="/css/home/app.min.css" rel="stylesheet">
