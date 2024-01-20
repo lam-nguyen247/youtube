@@ -334,7 +334,7 @@
             </button>
         </div>
         <div class="box-contact">
-            <div class="zalo">
+            <div class="messenger">
                 <div class="ring">
                     <div class="">
                         <a href="https://zalo.me/{{ $config->zalo }}" class="btn-img" target="_blank">
@@ -343,21 +343,7 @@
                     </div>
                 </div>
                 <div class="bar">
-                    <a href="https://zalo.me/{{ $config->zalo }}" target="_blank">
-                        <span class="text-hotline">Zalo</span>
-                    </a>
-                </div>
-            </div>
-            <div class="messenger">
-                <div class="ring">
-                    <div class="">
-                        <a href="https://telegram.me/mrkieng09" class="btn-img" target="_blank">
-                            <img src="/images/home/telegram.png" width="38">
-                        </a>
-                    </div>
-                </div>
-                <div class="bar">
-                    <a href="https://telegram.me/mrkieng09">
+                    <a href="https://zalo.me/{{ $config->zalo }}">
                         <span class="text-hotline">Tele</span>
                     </a>
                 </div>
@@ -376,8 +362,21 @@
                     </a>
                 </div>
             </div>
+            <div class="zalo">
+                <div class="ring">
+                    <div class="">
+                        <a href="https://telegram.me/mrkieng09" class="btn-img" target="_blank">
 
-
+                            <img src="/images/home/telegram.png" width="38">
+                        </a>
+                    </div>
+                </div>
+                <div class="bar">
+                    <a href="https://telegram.me/mrkieng09" target="_blank">
+                        <span class="text-hotline">Zalo</span>
+                    </a>
+                </div>
+            </div>
         </div>
 
         <script src="/js/home/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
