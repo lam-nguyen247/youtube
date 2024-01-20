@@ -344,7 +344,7 @@
                 </div>
                 <div class="bar">
                     <a href="https://zalo.me/{{ $config->zalo }}">
-                        <span class="text-hotline">Tele</span>
+                        <span class="text-hotline">Zalo</span>
                     </a>
                 </div>
             </div>
@@ -373,7 +373,7 @@
                 </div>
                 <div class="bar">
                     <a href="https://telegram.me/mrkieng09" target="_blank">
-                        <span class="text-hotline">Zalo</span>
+                        <span class="text-hotline">Tele</span>
                     </a>
                 </div>
             </div>
