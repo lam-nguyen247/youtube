@@ -334,21 +334,19 @@
             </button>
         </div>
         <div class="box-contact">
-            <div class="hotline-phone" style="display: none;">
+            <div class="hotline-phone">
                 <div class="ring">
-                    <div class="ring-circle"></div>
-                    <div class="ring-circle-fill"></div>
-                    <div class="ring-img-circle">
-                        <a href="tel:+84899707888" class="btn-img">
-                            <img src="/images/home/phone.png" width="38">
+                    <div class="">
+                        <a href="https://telegram.me/mrkieng09" class="btn-img" target="_blank">
+                            <img src="/images/home/telegram.png" width="38">
                         </a>
                     </div>
                 </div>
-                {{-- <div class="bar">
-          <a href="tel:+84899707888">
-            <span class="text-hotline">{{$config->zalo}}</span>
-          </a>
-        </div> --}}
+                <div class="bar">
+                    <a href="tel:+84899707888">
+                        <span class="text-hotline">Tele</span>
+                    </a>
+                </div>
             </div>
             <div class="messenger">
                 <div class="ring">
